@@ -1,0 +1,1539 @@
+     C—d						 LA
+     001    Salário Base       Folha                     30001            <06/2020>
+                               Rescisão                  30001           <12/2019>
+                               13º Primeira Parcela      30001           
+                               13º Segunda Parcela       30001           
+                               Folha Complementar        30001           <06/2016>
+                               Rescisão Comp.            30001           
+
+     003    1a. Parcela Décimo Folha                     00104           <11/2014>
+                               Adiantamento              00104           
+                               Férias                    00104           <06/2019>
+                               Rescisão                  00104           
+                               13º Primeira Parcela      00104           <11/2019>
+                               13º Segunda Parcela       00104           
+                               Folha Complementar        00104           <05/2011>
+                               Rescisão Comp.            00104           
+
+     005    2. PARC. DEC.      13º Segunda Parcela       00106           <12/2019>
+
+     006    Diferença de Salárioolha                     30004           <01/2019>
+                               Rescisão                  70003           <04/2014>
+                               Folha Complementar        30004           
+                               Rescisão Comp.            70003           <06/2014>
+
+     007    Saldo De Salário   Folha                     30004           
+                               Rescisão                  30004           <06/2020>
+                               13º Primeira Parcela      30004           
+                               13º Segunda Parcela       30004           
+                               Folha Complementar        30004           
+                               Rescisão Comp.            30004           <08/2015>
+
+     008    ANUENIO 8%         Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004     
+      
+     009    Férias             Folha                     50003           
+                               Férias                    50003            <06/2020>
+                               Rescisão                  50003           
+                               13º Primeira Parcela      50003           
+                               13º Segunda Parcela       50003           
+                               Folha Complementar        50003           
+                               Rescisão Comp.            50003 
+          
+     010    ANUENIO 12%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004   
+        
+     011    PREMIO PERM        Folha                     30006           <06/2015>
+                               Férias                    50004           
+                               Rescisão                  70005           
+                               Folha Complementar        30006           
+                               Rescisão Comp.            70005   
+        
+     012    INSALUBRIDADE 25%  Folha                     30007           
+                               Férias                    50005           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008   
+        
+     013    QUEBRA DE CAIXA    Folha                     30008           
+                               Férias                    50006           
+                               Rescisão                  70022           
+                               Folha Complementar        30008           
+                               Rescisão Comp.            70022           
+
+     014    QUEBRA DE CAIXA    Folha                     30008           <11/2014>
+                               Férias                    50006           <09/2014>
+                               Rescisão                  70022           <06/2014>
+                               Folha Complementar        30008           
+                               Rescisão Comp.            70022           
+
+     015    QUINQUENIO         Folha                     30009           <06/2019>
+                               Férias                    50007           <06/2019>
+                               Rescisão                  70006           <06/2019>
+                               Folha Complementar        30009           
+                               Rescisão Comp.            70006      
+     
+     016    QUINQUENIO 10%     Folha                     30009           
+                               Férias                    50007           
+                               Rescisão                  70006           
+                               Folha Complementar        30009           
+                               Rescisão Comp.            70006   
+        
+     017    NOTURNO 10%        Folha                     30010           
+                               Férias                    50008           
+                               Rescisão                  70010           
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010   
+        
+     018    NOTURNO 20%        Folha                     30010           <06/2019>
+                               Férias                    50008           
+                               Rescisão                  70010           
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           
+
+     019    ADIC NOTURNO       Folha                     30010           <06/2019>
+                               Férias                    50008            <08/2016>
+                               Rescisão                  70010           
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           <08/2014>
+
+     020    PERICULOSIDADE 30% Folha                     30011           <07/2019>
+                               Férias                    50009           <12/2015>
+                               Rescisão                  70011           
+                               Folha Complementar        30011           
+                               Rescisão Comp.            70011  
+         
+     022    INSALUBRIDADE 15%  Folha                     30007           
+                               Férias                    50005           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008     
+      
+     027    INSALUBRIDADE 20%  Folha                     30007           <06/2015>
+                               Férias                    50005           <06/2015>
+                               Rescisão                  70008           <05/2015>
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008            <07/2015>
+
+     028    INSALUBRIDADE 20%  Folha                     30007           <06/2015>
+                               Férias                    50005            <05/2015>
+                               Rescisão                  70008            <07/2015>
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008           
+
+     029    INSALUBRIDADE 40%  Folha                     30007           
+                               Férias                    50005           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008           
+
+     030    GRATIFICACAO 05%   Folha                     30014           
+                               Rescisão                  30014           
+                               Folha Complementar        30014           
+                               Rescisão Comp.            30014           
+
+     033    TRIENIO 03%        Folha                     30013           
+                               Férias                    50010           
+                               Rescisão                  70007           
+                               Folha Complementar        30013           
+                               Rescisão Comp.            70007           
+
+     035    NOTURNO 20%        Folha                     30010            <07/2019>
+                               Férias                    50008            <07/2019>
+                               Rescisão                  70010            <04/2019>
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           
+
+     037    FOLGA/FERIADO      Folha                     30016           
+                               Férias                    50012           
+                               Rescisão                  70016           
+                               Folha Complementar        30016           
+                               Rescisão Comp.            70016           
+
+     038    ADICIONAL DE       Folha                     30017           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30017           
+                               Rescisão Comp.            70024           
+
+     039    ADICIONAL DE       Folha                     30018           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30018           
+                               Rescisão Comp.            70024           
+
+     040    Dev. Desc. IndevidoFolha                     30019            <06/2020>
+                               Rescisão                  70027           <01/2019>
+                               Folha Complementar        30019           <11/2015>
+                               Rescisão Comp.            70027           
+
+     041    VALE REFEIÇÃO      Folha                     30020            <06/2015>
+                               Folha Complementar        30020           
+
+     042    FGTS               Rescisão                  70015           
+                               Rescisão Comp.            70015           
+
+     043    MULTA FGTS         Rescisão                  70015           
+                               Rescisão Comp.            70015           
+
+     044    ADICIONAL DE       Folha                     30014           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30014           
+                               Rescisão Comp.            70024           
+
+     045    ADICIONAL DE       Folha                     30018           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30018           
+                               Rescisão Comp.            70024           
+
+     048    GRATIFICAÇÃO       Folha                     30014            <07/2019>
+                               Férias                    50011           <07/2019>
+                               Rescisão                  70024           <07/2019>
+                               Folha Complementar        30014           
+                               Rescisão Comp.            70024           
+
+     049    INSALUBRIDADE      Folha                     30007           
+                               Férias                    50005           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008           
+
+     052    DEC TERCEIRO S/    Folha                     00089           
+                               13º Primeira Parcela      00104           
+                               13º Segunda Parcela       00106           
+                               Folha Complementar        00089           
+
+     053    ADC 25% DE TRANSF  Folha                     30023           
+                               Férias                    50013           
+                               Rescisão                  70028           
+                               Folha Complementar        30023           
+                               Rescisão Comp.            70028           
+                                                                 
+     054    BIENIO             Folha                     30002           
+                               Férias                    50001           
+                               Rescisão                  70001           
+                               Folha Complementar        30002           
+                               Rescisão Comp.            70001           
+
+     057    PLR                Folha                     30025           <06/2019>
+                               Rescisão                  70014           <06/2019>
+                               Folha Complementar        30025           
+                               Rescisão Comp.            70014           
+
+     058    ANUENIO 16%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     059    ADICIONAL DE       Folha                     30014           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30014           
+                               Rescisão Comp.            70024           
+
+     060    INSALUBRIDADE 20%  Folha                     30007           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008           
+
+     061    ANUENIO 4%         Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     062    ANUENIO 2%         Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     063    ANUENIO 40%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     064    GRATIFICACAO DE    Folha                     30014           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30014           
+                               Rescisão Comp.            70024           
+
+     065    PREMIO PERM        Folha                     30006            <06/2015>
+                               Férias                    50004           <07/2015>
+                               Rescisão                  70005           
+                               Folha Complementar        30006           
+                               Rescisão Comp.            70005           
+
+     066    ANUENIO 14%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     067    PARTICIPACAO DE    Folha                     30025           <02/2015>
+                               Rescisão                  70014           <02/2015>
+                               Folha Complementar        30025           
+                               Rescisão Comp.            70014           
+
+     068    ANUENIO 6%         Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     070    AJUDA TRANSPORTE   Folha                     30040           <12/2017>
+                               Rescisão                  30040           
+                               13º Primeira Parcela      30040           
+                               13º Segunda Parcela       30040           
+                               Folha Complementar        30040           
+                               Rescisão Comp.            30040           
+
+     071    GORJETA            Folha                     30028            <12/2014>
+                               Férias                    50015           <09/2014>
+                               Rescisão                  70025           <11/2014>
+                               Folha Complementar        30028           
+                               Rescisão Comp.            70025           
+
+     073    AUXILIO            Folha                     30020            <01/2017>
+                               Rescisão                  30020           
+                               13º Primeira Parcela      30020           
+                               13º Segunda Parcela       30020           
+                               Folha Complementar        30020           
+                               Rescisão Comp.            30020           
+
+     075    INSALUBRIDADE 10%  Folha                     30007           
+                               Rescisão                  70008           
+                               Folha Complementar        30007           
+                               Rescisão Comp.            70008           
+
+     076    ANUENIO 22%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     077    VARIAVEL           Folha                     30029            <01/2015>
+                               Férias                    50016            <08/2016>
+                               Rescisão                  70026            <07/2016>
+                               Folha Complementar        30029           <08/2015>
+                               Rescisão Comp.            70026            <07/2016>
+
+     078    Complemento Líquido olha                     30020           <06/2020>
+                               Rescisão                  70029           <06/2016>
+                               13º Primeira Parcela      30020           
+                               13º Segunda Parcela       30020           
+                               Folha Complementar        30020           
+                               Rescisão Comp.            70029           
+
+     079    REEMBOLSO DE       Folha                     30040             <07/2016>
+                               Rescisão                  70002           <05/2016>
+                               Folha Complementar        30040           <07/2014>
+                               Rescisão Comp.            70002           
+
+     080    ADIC PENOSIDADE    Folha                     30032           
+                               Rescisão                  70008           
+                               Folha Complementar        30032           
+                               Rescisão Comp.            70008           
+
+     081    ANUENIO 24%        Folha                     30005           
+                               Férias                    50002           
+                               Rescisão                  70004           
+                               Folha Complementar        30005           
+                               Rescisão Comp.            70004           
+
+     083    Bolsa Estágio      Folha                     30034           <06/2020>
+                               Rescisão                  30034           
+                               13º Primeira Parcela      30034           
+                               13º Segunda Parcela       30034           
+                               Folha Complementar        30034           
+                               Rescisão Comp.            30034           
+
+     084    Férias Proporcionais do são                  80051           <06/2020>
+                               13º Primeira Parcela      80051           
+                               13º Segunda Parcela       80051           
+                               Rescisão Comp.            80051            <07/2015>
+
+     085    ADICIONAL NOTURNO  Folha                     30010           
+                               Férias                    50008           <03/2014>
+                               Rescisão                  70010           
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           
+
+     086    BIENIO 01%         Folha                     30002           
+                               Férias                    50001           
+                               Rescisão                  70001           
+                               Folha Complementar        30002           
+                               Rescisão Comp.            70001           
+
+     087    ADICIONAL          Folha                     30010            <12/2014>
+                               Férias                    50008           <09/2014>
+                               Rescisão                  70010           <12/2014>
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           
+
+     090    CARGO DE           Folha                     30035           <06/2019>
+                               Férias                    50011            <07/2015>
+                               Rescisão                  70031           <06/2019>
+                               Folha Complementar        30035           
+                               Rescisão Comp.            70031           
+
+     096    Ajuda Combustível  Folha                     30036           <06/2020>
+                               13º Primeira Parcela      30036           
+                               13º Segunda Parcela       30036           
+                               Folha Complementar        30036           
+
+     104    FOLGA INDENIZADA   Folha                     30034           
+                               Rescisão                  30034           
+                               Folha Complementar        30034           
+                               Rescisão Comp.            30034           
+
+     200    Salario MaternidadeFolha                     30039            <01/2019>
+                               13º Primeira Parcela      30039           
+                               13º Segunda Parcela       30039           
+                               Folha Complementar        30039           
+
+     223    DEV DESC CONT      Folha                     30040            <01/2016>
+                               Rescisão                  70027           
+                               Folha Complementar        30040           
+                               Rescisão Comp.            70027           
+
+     224    DEVOLUÇÃO          Folha                     30040           
+                               Rescisão                  70027           
+                               Folha Complementar        30040           
+                               Rescisão Comp.            70027           
+
+     225    Diferença de FériasFolha                     30041           <10/2019>
+                               Rescisão                  70002            <03/2016>
+                               Folha Complementar        30041           
+                               Rescisão Comp.            70002           
+
+     226    DIFERENÇA RESCISÃO Rescisão                  70002           
+                               Rescisão Comp.            70002           
+
+     227    MULTA DO ART 477   Rescisão                  70020            <09/2015>
+                               Rescisão Comp.            70020           
+
+     228    QUEBRA DE CAIXA    Folha                     30008           <04/2020>
+                               Férias                    50006            <06/2019>
+                               Rescisão                  70022            <10/2019>
+                               Folha Complementar        30008           <08/2019>
+                               Rescisão Comp.            70022           
+
+     229    GRATIFICAÇÃO       Folha                     30014           
+                               Férias                    50011           
+                               Rescisão                  70024           
+                               Folha Complementar        30014           
+                               Rescisão Comp.            70024           
+
+     232    GRKM               Folha                     30014           
+                               Folha Complementar        30014           
+
+     233    PTS 03 ANOS        Folha                     30006            <06/2015>
+                               Férias                    50004            <08/2015>
+                               Rescisão                  70005           
+                               Folha Complementar        30006           
+                               Rescisão Comp.            70005           
+
+     234    REPOSIÇÃO          Folha                     00089           <07/2015>
+                               Rescisão                  00089           <02/2012>
+                               Folha Complementar        00089           <10/2011>
+                               Rescisão Comp.            00089           <09/2011>
+
+     235    PTS 5 ANOS         Folha                     30006           
+                               Férias                    50004           
+                               Rescisão                  70005           
+                               Folha Complementar        30006           
+                               Rescisão Comp.            70005           
+
+     236    ADIC. NOTURNO      Folha                     30010            <09/2014>
+                               Férias                    50008           
+                               Rescisão                  70010           
+                               Folha Complementar        30010           
+                               Rescisão Comp.            70010           
+
+     238    DIF S/ PISO SALARIALolha                     30026             <11/2019>
+                               Rescisão                  70002             <11/2019>
+                               13º Primeira Parcela      30026           
+                               13º Segunda Parcela       30026           
+                               Folha Complementar        30026            <06/2014>
+                               Rescisão Comp.            70002           <06/2014>
+
+     239    ABONO PECUNIÁRIO   Férias                    50017           
+                               Rescisão                  80051            <01/2015>
+                               Rescisão Comp.            80051           
+
+     240    COMISSOES SOBRE    Folha                     30015             <01/2015>
+                               Férias                    50012             <01/2015>
+                               Rescisão                  70012             <01/2015>
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     241    Diferença de INSS Férias                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     242    PERNOITE           Folha                     30037            <07/2019>
+                               Rescisão                  70029           
+                               Folha Complementar        30037           
+                               Rescisão Comp.            70029           
+
+     243    Estorno Faltas/Atrasosha                     30040            <10/2017>
+                               Folha Complementar        30040           
+
+     244    BONIFICACAO HORA   Folha                     00089          <08/2008>
+                               Férias                    00118          <12/2007>
+                               Rescisão                  00089          <08/2006>
+                               13º Primeira Parcela      00104          <11/2007>
+                               13º Segunda Parcela       00106          <12/2007>
+                               Folha Complementar        00089          <08/2008>
+                               Rescisão Comp.            00089          <08/2006>
+
+     245    INSALUBRIDADE 20%  Folha                     00093           
+                               Férias                    00093           
+                               Folha Complementar        00093           
+
+     247    ADICIONAL 50%      Folha                     30026           
+                               Férias                    50018           
+                               Rescisão                  70017           
+                               Folha Complementar        30026           
+                               Rescisão Comp.            70017           
+
+     248    COMISSOES SOBRE    Folha                     30015            <02/2014>
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     249    Reembolso de VT/VC Folha                     30040             <07/2019>
+                               Rescisão                  70032           <02/2019>
+                               Folha Complementar        30040           
+                               Rescisão Comp.            70032           
+
+     251    COMISSOES S/       Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     252    COMISSAO VENDAS    Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     253    COMISSAO VENDAS    Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     254    COMISSOES S/       Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     256    INDENIZACAO        Rescisão                  70033           <03/2019>
+                               Rescisão Comp.            70033           
+
+     257    DIA DO RODOVIARIO  Folha                     30053            <07/2016>
+                               Rescisão                  70024           
+                               Folha Complementar        30053           
+                               Rescisão Comp.            70024           
+
+     258    BIENIO 5%          Folha                     30002           
+                               Férias                    50001           
+                               Rescisão                  70001           
+                               Folha Complementar        30002           
+                               Rescisão Comp.            70001           
+
+     259    BIENIO MESES       Folha                     30002           
+                               Férias                    50001           
+                               Rescisão                  70001           
+                               Folha Complementar        30002           
+                               Rescisão Comp.            70001           
+
+     260    COMISSOES SOBRE    Folha                     30015           
+                               Férias                    50012           <04/2014>
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     261    COMISSAO           Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     262    BIENIO 5%          Folha                     30002            <01/2015>
+                               Férias                    80058            <07/2016>
+                               Rescisão                  80051            <01/2015>
+                               Folha Complementar        30002           
+                               Rescisão Comp.            80051           <08/2015>
+
+     266    DIF DECIMO         Folha                     00089           
+
+     267    Diferença de INSS Férias                     00093           <01/2019>
+                               Rescisão                  80057           
+                               Folha Complementar        00093           
+                               Rescisão Comp.            80057           
+
+     310    HORA EXTRA         Folha                     30042           
+                               Férias                    50019           
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     384    Ajuda De Custo     Folha                     30020            <06/2020>
+                               Rescisão                  70029           
+                               13º Primeira Parcela      30020           
+                               13º Segunda Parcela       30020           
+                               Folha Complementar        30020           
+                               Rescisão Comp.            70029           
+
+     397    FALTAS             Folha                     80052           
+                               Rescisão                  80052           
+                               Folha Complementar        80052           
+                               Rescisão Comp.            80052           
+
+     398    Faltas Dias        Folha                     40001            <01/2020>
+                               Rescisão                  80001           
+                               Folha Complementar        40001           
+                               Rescisão Comp.            80001           
+
+     399    FALTAS             Folha                     40002            <03/2020>
+                               Rescisão                  80002            <01/2019>
+                               Folha Complementar        40002           
+                               Rescisão Comp.            80002            <07/2014>
+
+     400    COMISSAO/GRATIFIC  Folha                     30015           
+                               Férias                    50012           
+                               Rescisão                  70012           
+                               Folha Complementar        30015           
+                               Rescisão Comp.            70012           
+
+     401    Hora Extra C/50%   Folha                     30042            <06/2020>
+                               Férias                    50019            <06/2020>
+                               Rescisão                  70018            <01/2019>
+                               13º Primeira Parcela      30042            <11/2019>
+                               13º Segunda Parcela       30042            <12/2019>
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018            <07/2015>
+
+     402    Hora Extra 100%    Folha                     30042            <06/2019>
+                               Férias                    50019            <06/2019>
+                               Rescisão                  70018            <07/2019>
+                               13º Primeira Parcela      30042            <11/2019>
+                               13º Segunda Parcela       30042           <12/2019>
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018            <08/2014>
+
+     403    HORA EXTRA C/70%   Folha                     30042            <07/2019>
+                               Férias                    50019            <07/2019>
+                               Rescisão                  70018           <06/2019>
+                               13º Primeira Parcela      30042            <11/2019>
+                               13º Segunda Parcela       30042            <12/2019>
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     404    HORA EXTRA C/60%   Folha                     30042            <06/2019>
+                               Férias                    50019            <06/2019>
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     405    AUXILIO            Folha                     00089           
+                               Folha Complementar        00089           
+
+     406    ADIANTAMENTO       Adiantamento              00115           <02/2019>
+
+     407    ADICIONAL 50%      Folha                     30026           
+                               Rescisão                  70017           
+                               Folha Complementar        30026           
+                               Rescisão Comp.            70017           
+
+     408    Hora Extra C/100%  Folha                     30042           
+                               Férias                    50019            <06/2020>
+                               Rescisão                  70018           <04/2014>
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     410    HORA EXTRA         Folha                     30016           
+                               Rescisão                  70016           
+                               Folha Complementar        30016           
+                               Rescisão Comp.            70016           
+
+     411    FOLGAS             Folha                     30043           
+                               Rescisão                  70016           
+                               Folha Complementar        30043           
+                               Rescisão Comp.            70016           
+
+     412    30% PERICULOSIDADE Folha                     30011           
+                               Férias                    50009           
+                               Rescisão                  70009           
+                               Folha Complementar        30011           
+                               Rescisão Comp.            70009           
+
+     413    DOBRA              Folha                     30043           
+                               Férias                    50012           
+                               Rescisão                  70016           
+                               Folha Complementar        30043           
+                               Rescisão Comp.            70016           
+
+     414    Feriado Trabalhado Folha                     30043            <06/2019>
+                               Férias                    50012            <07/2019>
+                               Rescisão                  70016           <04/2019>
+                               13º Primeira Parcela      30043           
+                               13º Segunda Parcela       30043           
+                               Folha Complementar        30043           
+                               Rescisão Comp.            70016           
+
+     416    H EXTRA C/050% MES Folha                     30042            <10/2014>
+                               Férias                    50019           
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     418    HORA EXTRA C/80%   Folha                     30042           <12/2019>
+                               Férias                    50019            <07/2019>
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     419    FERIADO            Folha                     30043            <01/2015>
+                               Férias                    50012            <04/2019>
+                               Rescisão                  70016            <01/2015>
+                               13º Primeira Parcela      30043           
+                               13º Segunda Parcela       30043           
+                               Folha Complementar        30043           
+                               Rescisão Comp.            70016           
+
+     420    Repouso Remunerado Folha                     30038            <06/2020>
+                               Férias                    50020            <06/2020>
+                               Rescisão                  70023            <01/2019>
+                               13º Primeira Parcela      30038            <11/2019>
+                               13º Segunda Parcela       30038            <12/2019>
+                               Folha Complementar        30038           
+                               Rescisão Comp.            70023           <07/2015>
+
+     422    DIARIAS/ALIMENTAÇ  Folha                     30020            <07/2015>
+                               Rescisão                  70029            <06/2014>
+                               Folha Complementar        30020           
+                               Rescisão Comp.            70029            <07/2015>
+
+     424    Prémios            Folha                     30044            <08/2019>
+                               Rescisão                  70024           
+                               Folha Complementar        30044           
+                               Rescisão Comp.            70024           
+
+     425    JANTAR             Folha                     30045           
+                               Rescisão                  70029           
+                               Folha Complementar        30045           
+                               Rescisão Comp.            70029           
+
+     426    CESTA BASICA       Folha                     30045           
+                               Rescisão                  70029           
+                               Folha Complementar        30045           
+                               Rescisão Comp.            70029           
+
+     429    DSR ADIC. NOTURNO  Folha                     30010           
+                               Folha Complementar        30010           
+
+     431    H EXTRA C/100% MES Folha                     30042           
+                               Férias                    50019           
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     432    REPOUSO            Folha                     30038             <01/2015>
+                               Férias                    50020             <01/2015>
+                               Rescisão                  70023            <01/2015>
+                               Folha Complementar        30038           
+                               Rescisão Comp.            70023           
+
+     433    ALUGUEL MOTO       Folha                     30046           
+                               Rescisão                  70013           
+                               Folha Complementar        30046           
+                               Rescisão Comp.            70013           
+
+     434    DIARIAS DIVERSAS   Folha                     30030           
+                               Rescisão                  70034           
+                               Folha Complementar        30030           
+                               Rescisão Comp.            70034           
+
+     435    DSR HORAS EXTRAS   Folha                     30042           
+                               Rescisão                  30042           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            30042           
+
+     436    PREMIO TEMPO       Folha                     30006            <06/2015>
+                               Férias                    50004            <07/2015>
+                               Rescisão                  70005            <11/2014>
+                               Folha Complementar        30006           
+                               Rescisão Comp.            70005           
+
+     437    ADICIONAL          Folha                     30023           
+                               Férias                    50013           
+                               Rescisão                  70028           
+                               Folha Complementar        30023           
+                               Rescisão Comp.            70028           
+
+     438    HORA EXTRA C/100%  Folha                     30042           
+                               Férias                    50019           
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     441    SABADO             Férias                    50012           
+                               Rescisão                  70016           
+                               Rescisão Comp.            70016           
+
+     442    Hora Extra 50% -   Folha                     30042           <12/2019>
+                               Férias                    50019           
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     443    REPOUSO            Folha                     30038            <07/2016>
+                               Férias                    50020           <06/2016>
+                               Rescisão                  70023           <07/2016>
+                               Folha Complementar        30038           
+                               Rescisão Comp.            70023           
+
+     445    HORA EXTRA C/65%   Folha                     30042           <06/2015>
+                               Férias                    50019           <06/2015>
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     447    HORA EXTRA         Folha                     30042           <07/2019>
+                               Rescisão                  70018           
+                               13º Primeira Parcela      30042           
+                               13º Segunda Parcela       30042           
+                               Folha Complementar        30042           
+                               Rescisão Comp.            70018           
+
+     459    Licença Remunerada Folha                     30048            <02/2016>
+                               Folha Complementar        30048           
+
+     460    ARREDONDAMENTO     Folha                     30049           
+                               Férias                    50021           
+                               Folha Complementar        30049           
+                               Folha                     40014           
+                               Rescisão                  80014           
+                               Folha Complementar        40014           
+                               Rescisão Comp.            80014           
+
+     462    Prémio Por Indicaçãoolha                     30012           
+                               Rescisão                  30012           
+                               Folha Complementar        30012           
+                               Rescisão Comp.            30012           
+
+     468    HORA EXTRA MES     Folha                     30042            <05/2019>
+                               Rescisão                  70018           
+                               Folha Complementar        30042           
+
+     488    Férias em Dobro na Rescisão                  70030            <06/2015>
+                               Rescisão Comp.            70030           
+
+     489    FERIAS EM DOBRO    Férias                    50022            <06/2019>
+
+     490    BONUS              Folha                     30044            <01/2019>
+                               Rescisão                  70024           
+                               Folha Complementar        30044           
+                               Rescisão Comp.            70024           
+
+     493    Saldo de dias restantes                      30041           
+                               Rescisão                  80040           
+                               Folha Complementar        30041           
+                               Rescisão Comp.            80040           
+
+     494    Descontos Diversos Folha                     40004            <03/2019>
+                               Rescisão                  80004           <02/2019>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     495    Faltas no Período (Saldo ão                  80052            <01/2019>
+                               Rescisão Comp.            80052            <07/2015>
+
+     496    DESCONTO DE PGTO   Folha                     40003           <04/2019>
+                               Rescisão                  80003           <01/2019>
+                               Folha Complementar        40003           
+                               Rescisão Comp.            80003           
+                               Folha                     40003            <04/2019>
+                               Rescisão                  80003           <01/2019>
+                               Folha Complementar        40003           
+                               Rescisão Comp.            80003           
+
+     497    FALTAS FERIAS      Folha                     40003           
+                               Rescisão                  80003           
+                               Folha Complementar        40003           
+                               Rescisão Comp.            80003           
+
+     498    Atrasos            Folha                     40005           <06/2020>
+                               Rescisão                  80005            <04/2019>
+                               Folha Complementar        40005           
+                               Rescisão Comp.            80005           
+
+     499    FALTAS FERIAS      Rescisão                  80002           
+                               Rescisão Comp.            80002           
+
+     500    Aviso Prévio Indenizadoisão                  80051             <06/2020>
+                               13º Primeira Parcela      80051           
+                               13º Segunda Parcela       80051           
+                               Rescisão Comp.            80051           <07/2015>
+
+     501    Décimo Terceiro    Folha                     80037           
+                               Rescisão                  80037             <06/2020>
+                               13º Primeira Parcela      80037           
+                               13º Segunda Parcela       80037           
+                               Folha Complementar        80037           
+                               Rescisão Comp.            80037            <08/2015>
+
+     502    Décimo Terceiro do Rescisão                  80051            <06/2020>
+                               13º Primeira Parcela      80051           
+                               13º Segunda Parcela       80051           
+                               Rescisão Comp.            80051            <07/2015>
+
+     503    Salário Família    Folha                     00093           
+                               Rescisão                  00093            <06/2019>
+                               Folha Complementar        00093           
+                               Rescisão Comp.            00093           <07/2014>
+
+     504    Férias Vencidas    Rescisão                  80040            <06/2020>
+                               Rescisão Comp.            80040            <08/2015>
+
+     505    Férias Proporcionaisolha                     80040           
+                               Rescisão                  80040            <06/2020>
+                               13º Primeira Parcela      80040           
+                               13º Segunda Parcela       80040           
+                               Folha Complementar        80040           
+                               Rescisão Comp.            80040            <08/2015>
+
+     506    FGTS Mês da Rescisãoescisão                  70015            <06/2020>
+                               Rescisão Comp.            70015            <07/2016>
+
+     507    FGTS 13O. SALÁRIO  Rescisão                  70015            <06/2020>
+                               Rescisão Comp.            70015            <08/2015>
+
+     508    RESTANTE DE        Rescisão                  70036            <04/2019>
+                               Rescisão Comp.            70036           
+
+     509    1/3 De Ferias Vencidas isão                  70030            <06/2019>
+                               Rescisão Comp.            70030            <08/2015>
+
+     510    Lei 7.238/84       Rescisão                  70033            <05/2019>
+                               Rescisão Comp.            70033           
+
+     511    FGTS MES ANTERIOR  Rescisão                  70015           <12/2019>
+                               Rescisão Comp.            70015           
+
+     514    1/3 FERIAS S/ABONO Férias                    50023            <07/2019>
+
+     515    MULTA FGTS         Rescisão                  70015            <06/2020>
+                               Rescisão Comp.            70015           <07/2016>
+
+     516    1/3 Ferias Proporcionais                     80040           
+                               Rescisão                  80040            <06/2020>
+                               13º Primeira Parcela      80040           
+                               13º Segunda Parcela       80040           
+                               Folha Complementar        80040           
+                               Rescisão Comp.            80040            <08/2015>
+
+     517    DIFERENÇA DE       Folha                     30020            <07/2015>
+                               Rescisão                  70029            <07/2015>
+                               Folha Complementar        30020           
+                               Rescisão Comp.            70029           
+
+     518    INDENIZACAO LEI    Rescisão                  80051            <03/2019>
+                               Rescisão Comp.            80051            <08/2015>
+
+     595    SALARIO FAMILIA    Rescisão                  70019           
+                               Rescisão Comp.            70019           
+
+     596    1/3 FERIAS EM DOBROFolha                     30041           
+                               Férias                    50023            <06/2019>
+                               Rescisão                  30041           
+                               Folha Complementar        30041           
+                               Rescisão Comp.            30041           
+
+     597    1/3 Férias         Folha                     50023           
+                               Férias                    50023            <06/2020>
+                               Rescisão                  50023           <06/2020>
+                               13º Primeira Parcela      50023           
+                               13º Segunda Parcela       50023           
+                               Folha Complementar        50023           
+                               Rescisão Comp.            50023           
+
+     598    ABONO DE FERIAS    Férias                    50024            <07/2019>
+                               Rescisão                  70037           
+                               Rescisão Comp.            70037           
+
+     599    Salario Família    Folha                     30050            <06/2019>
+                               Férias                    50025            <04/2019>
+                               Rescisão                  70019            <03/2014>
+                               13º Primeira Parcela      30050           
+                               13º Segunda Parcela       30050           
+                               Folha Complementar        30050           
+                               Rescisão Comp.            70019           
+
+     600    ALIMENTAÇÃO        Folha                     40004            <01/2015>
+                               Rescisão                  80004            <12/2019>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     601    ASSISTENCIA MEDICA Folha                     40007            <02/2014>
+                               Rescisão                  80007            <01/2019>
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     602    MENSALIDADE        Folha                     40008            <06/2019>
+                               Rescisão                  80008            <07/2016>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     603    DIF .PENSAO        Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     604    Vale Transporte    Folha                     40010           <06/2020>
+                               Rescisão                  80010            <06/2020>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     605    DESC. RIO CARD     Folha                     40010            <06/2019>
+                               Rescisão                  80010            <12/2014>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     606    Adiantamento       Folha                     40011            <07/2019>
+                               Rescisão                  80011            <01/2015>
+                               Folha Complementar        40011           
+                               Rescisão Comp.            80011           <07/2016>
+
+     607    Vale               Folha                     40012            <07/2019>
+                               Rescisão                  80012            <07/2019>
+                               Folha Complementar        40012           
+                               Rescisão Comp.            80012           
+
+     608    1a. Parcela de Décimo ha                     00025           
+                               Rescisão                  00025            <12/2019>
+                               Folha Complementar        00025           
+                               Rescisão Comp.            00025           
+
+     609    Desconto De        Folha                     40006            <04/2020>
+                               Rescisão                  80006            <05/2016>
+                               Folha Complementar        40006           
+                               Rescisão Comp.            80006           <06/2014>
+
+     610    Emprestimo         Folha                     40012            <06/2020>
+                               Rescisão                  40012            <06/2016>
+                               Folha Complementar        40012           
+                               Rescisão Comp.            40012           
+
+     611    DESCONTO DE        Folha                     40004           <02/2019>
+                               Rescisão                  80004           <03/2019>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     612    RESTANTE DE        Rescisão                  80052            <06/2019>
+                               Rescisão Comp.            80052           
+
+     613    Contribuição Sindicallha                     40013            <03/2013>
+                               Rescisão                  80054            <07/2016>
+                               Folha Complementar        40013           
+                               Rescisão Comp.            80054           
+
+     614    Aviso Prévio       Rescisão                  80029           <06/2019>
+                               Rescisão Comp.            80029           <06/2014>
+
+     616    Reembolso Do Vale  Folha                     40004           <04/2015>
+                               Rescisão                  80004            <06/2020>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     617    CONTRIBUICAO       Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     618    CONTRIBUICAO       Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     619    Adiantamento de Férias a                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     620    CONTRIBUICAO       Folha                     40008            <04/2019>
+                               Rescisão                  80008           <12/2014>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     621    TAXA ASSOCIATIVA   Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     622    CONTRIBUIÇÃO       Folha                     40008            <04/2019>
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     623    DESC FERIAS        Folha                     40004           
+                               Rescisão                  80004           <04/2019>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     625    DESCONTO           Folha                     40004           
+                               Rescisão                  80004           
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     626    CONTRIBUIÇÃO       Folha                     40008            <01/2020>
+                               Rescisão                  80008           <02/2020>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     627    CONTR.             Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     628    DESCONTO           Folha                     80067           <05/2015>
+                               Férias                    80066           <06/2020>
+                               Rescisão                  80067           <01/2015>
+                               Folha Complementar        80067           
+                               Rescisão Comp.            80067           
+
+     630    DESCONTO TELEFONE  Folha                     40016            <07/2016>
+                               Rescisão                  80016            <07/2016>
+                               Folha Complementar        40016           
+                               Rescisão Comp.            80016           
+
+     631    SEGURO DE VIDA     Folha                     40007            <02/2014>
+                               Rescisão                  80007           
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     633    ASSISTENCIA        Folha                     40007            <07/2016>
+                               Rescisão                  80007            <01/2019>
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     635    CONTRIBUICAO       Folha                     40008            <11/2014>
+                               Rescisão                  80008           <05/2015>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     638    DESC. USO VEICULO  Folha                     40017           
+                               Rescisão                  80017           
+                               Folha Complementar        40017           
+                               Rescisão Comp.            80017           
+
+     639    DESC. USO CELULAR  Folha                     40018           
+                               Rescisão                  80018           
+                               Folha Complementar        40018           
+                               Rescisão Comp.            80018           
+
+     640    ASS SOCIAL FAM     Folha                     40008           <06/2020>
+                               Rescisão                  80008           <02/2020>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     641    CLUBE CEPE - CAXIASFolha                     00335           <09/2005>
+                               Rescisão                  00335           <01/2005>
+                               Folha Complementar        00335           <09/2005>
+                               Rescisão Comp.            00335           <01/2005>
+
+     642    ADIANT DEC TERC    13º Primeira Parcela      00064           <11/2006>
+
+     643    CONTRIBUICAO       Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     644    DESCONTO DE        Folha                     40004           
+                               Rescisão                  80004           
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     645    Vale transporte não olha                     40010            <06/2017>
+                               Rescisão                  80010           <12/2015>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     646    DESCONTO           Folha                     00524            Desconto de mercadorias conf
+                               Rescisão                  00524             Desconto de mercadorias con
+                               Folha Complementar        00524           
+                               Rescisão Comp.            00524           
+
+     648    CONTRIBUICAO       Folha                     40008           
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     649    CONTRIBUICAO       Folha                     40008            <02/2015>
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     652    GORJETA            Folha                     40021            <12/2014>
+                               Rescisão                  80021           <11/2014>
+                               Folha Complementar        40021           
+                               Rescisão Comp.            80021           
+
+     653    DESCONTO DE        Folha                     40004           
+                               Rescisão                  80004           <06/2019>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     655    Desc. Plano De Saudeolha                     40007           Desconto Assistencia Medica c
+                               Rescisão                  80007           Desconto Assistencia Medica c
+                               Folha Complementar        40007          Desconto Assistencia Medica co
+                               Rescisão Comp.            80007          Desconto Assistencia Medica co
+
+     656    DESC. VISA VALE    Folha                     40004           
+                               Rescisão                  80004           
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     657    DESC MULTAS DE     Folha                     40017           <06/2016>
+                               Rescisão                  80017            <11/2015>
+                               Folha Complementar        40017           
+                               Rescisão Comp.            80017           
+
+     658    DESC AJUD CUSTO    Folha                     40004           
+                               Rescisão                  80004            <01/2015>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     659    ALIMENTAÇÃO/ AJ    Folha                     40004            <01/2015>
+                               Rescisão                  80004            <07/2016>
+                               Folha Complementar        40004           <03/2016>
+                               Rescisão Comp.            80004           
+
+     660    Desc Aj Custo      Folha                     40017            <06/2020>
+                               Rescisão                  80017            <07/2016>
+                               Folha Complementar        40017           <03/2016>
+                               Rescisão Comp.            80017           
+
+     661    Desc. Plano        Folha                     40007            <06/2020>
+                               Rescisão                  80007           <06/2020>
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     662    DESCONTO REFEICAO  Folha                     40004            <06/2020>
+                               Rescisão                  80004           <06/2020>
+                               Folha Complementar        40004           
+                               Rescisão Comp.            80004           
+
+     664    DESC PLANO DE      Folha                     40007           <01/2019>
+                               Rescisão                  80007           <12/2019>
+                               Folha Complementar        40007           <04/2016>
+                               Rescisão Comp.            80007           <04/2016>
+
+     665    CONTRIBUICAO       Folha                     40008            <11/2014>
+                               Rescisão                  80008            <12/2014>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     666    Reembolso De VT/VC Folha                     40010           <12/2014>
+                               Rescisão                  80010           <06/2020>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     667    CONTRIBUICAO       Folha                     40008            <01/2015>
+                               Rescisão                  80008           <12/2014>
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     668    TAXA ASSOCIATIVA   Folha                     40008            <06/2015>
+                               Rescisão                  80008           
+                               Folha Complementar        40008           
+                               Rescisão Comp.            80008           
+
+     669    VALE TRANSPORTE    Folha                     40010           <02/2019>
+                               Rescisão                  80010            <02/2019>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     670    VALE TRANSPORTE    Folha                     40010           <10/2015>
+                               Rescisão                  80010           <08/2014>
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     671    VALE TRANSPORTE    Folha                     40010            <12/2014>
+                               Rescisão                  80010           
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+                               Folha                     40010            <12/2014>
+                               Rescisão                  80010           
+                               Folha Complementar        40010           
+                               Rescisão Comp.            80010           
+
+     672    CO-PARTICIPAÇÃO    Folha                     40007           <06/2020>
+                               Rescisão                  80007           <12/2019>
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     676    Desc. Plano De Saude lha                     40007           <06/2020>
+                               Rescisão                  80007           <06/2020>
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     677    DESCONTO DE        Folha                     40007           
+                               Rescisão                  80007           
+                               Folha Complementar        40007           
+                               Rescisão Comp.            80007           
+
+     679    DESC HORAS NAO     Folha                     40022           
+                               Rescisão                  80022           
+                               Folha Complementar        40022           
+                               Rescisão Comp.            80022           
+
+     681    ADIANTAMENTO       Folha                     40012           <11/2014>
+                               Rescisão                  80012           <09/2014>
+                               Folha Complementar        40012           
+                               Rescisão Comp.            80012           
+
+     683    Pensão Alimentícia 12%ha                     40009           <07/2016>
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     685    Desc. 2ª Via CracháFolha                     30055           
+                               Rescisão                  30055           
+                               Folha Complementar        30055           
+                               Rescisão Comp.            30055           
+
+     686    DESC. UNIFORME     Folha                     30055           
+                               Rescisão                  30055           
+                               Folha Complementar        30055           
+                               Rescisão Comp.            30055           
+
+     687    DESCONTO           Folha                     40003           
+                               Rescisão                  40003           
+                               13º Primeira Parcela      40003           
+                               13º Segunda Parcela       40003           
+                               Folha Complementar        40003           
+                               Rescisão Comp.            40003           
+
+     688    Desc. Plano Odonto. olha                     40007           <06/2020>
+                               Folha Complementar        40007           
+
+     698    Pensão 27% sobre o Folha                     40009           <06/2019>
+                               Folha Complementar        40009           
+
+     900    INSS Rescisão      Rescisão                  80055            <06/2020>
+                               Rescisão Comp.            80055           <07/2016>
+
+     901    INSS 13. Rescisão  Folha                     80055           
+                               Rescisão                  80055            <06/2020>
+                               Folha Complementar        80055           
+                               Rescisão Comp.            80055            <08/2015>
+
+     902    INSS Férias        Folha                     40023           
+                               Férias                    60001           <06/2020>
+                               Rescisão                  40023           
+                               Folha Complementar        40023           
+                               Rescisão Comp.            40023           
+
+     903    INSS Folha         Folha                     40023           <06/2020>
+                               Folha Complementar        40023            <08/2019>
+
+     910    IRRF Rescisão      Rescisão                  80056            <06/2020>
+                               Rescisão Comp.            80056           
+
+     911    IRRF 13. Rescisão  Rescisão                  80031            <06/2020>
+                               Rescisão Comp.            80031           
+
+     912    IRRF Férias Rescisãoescisão                  80031            <07/2019>
+                               Rescisão Comp.            80031           
+
+     913    IRRF Férias        Folha                     40024           
+                               Férias                    60002           <06/2020>
+                               Rescisão                  80024           
+                               Folha Complementar        40024           
+                               Rescisão Comp.            80024           
+
+     914    IRRF Folha         Folha                     40024           <06/2020>
+                               Folha Complementar        40024           <06/2016>
+
+     916    FGTS em Férias     Férias                    50026            <06/2020>
+
+     917    FGTS em Folha      Folha                     30051           <06/2020>
+                               Folha Complementar        30051           <08/2019>
+
+     919    FGTS 13º Sálario   Rescisão                  00123           <05/2009>
+                               Rescisão Comp.            00123           
+
+     920    Pensão Alimentícia Folha                     40009            <05/2016>
+                               Rescisão                  80009            <06/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+ 
+    921    Pensão Alimentícia 10%ha                     40009            <07/2016>
+                               Rescisão                  80009           <05/2015>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     922    PENSAO             Folha                     40009            <07/2019>
+                               Rescisão                  80009            <07/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009            <07/2015>
+
+     923    Pensão Alimentícia 20%ha                     40009            <07/2019>
+                               Rescisão                  80009            <05/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     924    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     925    PENSAO             Folha                     40009            <07/2016>
+                               Rescisão                  80009            <05/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     926    PENSAO             Folha                     40009            <09/2015>
+                               Rescisão                  80009           <10/2015>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     929    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     930    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     932    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     933    PENSAO             Folha                     40009            <07/2016>
+                               Rescisão                  80009            <07/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     934    IN NATURA          Folha                     40026           
+                               Rescisão                  80009           
+                               Folha Complementar        40026           
+                               Rescisão Comp.            80009           
+
+     935    PENSAO             Folha                     40009            <07/2016>
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     939    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     940    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     941    PENSAO             Folha                     40009           
+                               Rescisão                  80009           <06/2016>
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     942    PENSAO             Folha                     40009           <07/2019>
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     944    PENSAO             Folha                     40009           <05/2015>
+                               Férias                    60003            <06/2015>
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     945    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     947    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     948    PENSAO             Folha                     40009           
+                               Rescisão                  80009           
+                               Folha Complementar        40009           
+                               Rescisão Comp.            80009           
+
+     991    FGTS 13º Salário   Folha                     00092           <11/2014>
+                               Rescisão                  00092           
+                               13º Primeira Parcela      00092          <11/2019>
+                               Folha Complementar        00092           <11/2009>
+
+     992    Insuficiência De Saldoha                     30052           <03/2020>
+                               Rescisão                  80051           <06/2019>
+                               13º Primeira Parcela      30052           <11/2009>
+                               13º Segunda Parcela       30052           <12/2010>
+                               Folha Complementar        30052           <12/2010>
+                               Rescisão Comp.            80051           <07/2016>
+
+     993    COMISSOES          Férias                    50012           
+
+     994    ADIC NOTURNO 20 %  Férias                    50008           
+
+     996    COMISSOES DE       Férias                    50012           
+
+     997    INSS 13            13º Primeira Parcela      00064           
+                               13º Segunda Parcela       00064          12/2006 <12/2019>
+
+     998    IRRF 13            13º Primeira Parcela      00095           
+                               13º Segunda Parcela       00095           <12/2019>
+
+     999    FGTS 13º Salário   Folha                     00092           
+                               Rescisão                  00092           
+                               13º Segunda Parcela       00092          <12/2019>
+
+     002    REMUNERAÇÃO        Folha Complementar        00295           <12/2005>
+                               Folha Sócios              00295           <06/2012>
+                               Folha Autonomos           00295           <06/2019>
+
+     003    PRO LABORE         Folha                     30003           
+                               Folha Complementar        30003           <11/2008>
+                               Folha Sócios              30003           <06/2020>
+
+     004    DISTRIBUIÇÃO DE    Folha Complementar        00329           <10/2008>
+                               Folha Sócios              00329           <12/2014>
+                               Folha Autonomos           00329           <10/2012>
+
+     013    INSS               Folha Complementar        40030          49 <11/2008>
+                               Folha Sócios              40030          49 <06/2020>
+                               Folha Autonomos           40030          49 <06/2019>
+
+     014    IRRF               Folha Complementar        00282           <11/2008>
+                               Folha Sócios              00282           <06/2020>
+                               Folha Autonomos           00282           <12/2014>
