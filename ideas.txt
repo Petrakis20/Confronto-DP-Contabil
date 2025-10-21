@@ -1,0 +1,14 @@
+Refazer a base de dados dos eventos, separando por categorias (ex: Folha / Folha Complementar, Rescisão, Folha Sócios, 13º Primeira Parcela, etc..)
+Ficando oraganizado por categoria, e dentro de cada categoria, os eventos ordenados por código e lançamento.
+
+FOLHA {
+    EventoFolhaXPTO = EventoXPTO, Código do LançamentoXPTO
+}
+A mesma coisa para as outras categorias.
+
+ - Fazer uma análise do PDF, para indentificar os eventos de cada categoria e valor realcionado. Só consigo identificar os códigos após a leitura do PDF indicar qual é a catergoria de cada bloco de acordo com o novo formato.
+ - Fazer a leitura de um TXT, das seguintes colunas 2(Código do lançamento automático) e 4(Valor do lançamento automático)
+ - Fazer a soma dos valores dos eventos do PDF de acordo com a sua categoria
+ - Fazer a comparação dos valores do PDF x TXT por categoria
+ - Gerar um relatório final, indicando os valores do PDF, TXT e a diferença entre eles separados por CATEGORIA.
+ 

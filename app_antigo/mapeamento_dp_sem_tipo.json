@@ -1,0 +1,7871 @@
+{
+  "13º Primeira Parcela": [
+    {
+      "evento": "003",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "004",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "128",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "190",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "228",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "280",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "334",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "608",
+      "codigo_lancamento": "80097"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "918",
+      "codigo_lancamento": "30059"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "30055"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "30055"
+    }
+  ],
+  "13º Segunda Parcela": [
+    {
+      "evento": "005",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "006",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "128",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "190",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "228",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "267",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "280",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "334",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "40034"
+    },
+    {
+      "evento": "608",
+      "codigo_lancamento": "80097"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "40034"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "30057"
+    },
+    {
+      "evento": "909",
+      "codigo_lancamento": "30058"
+    },
+    {
+      "evento": "919",
+      "codigo_lancamento": "30059"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "40034"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "30056"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "30056"
+    }
+  ],
+  "Folha": [
+    {
+      "evento": "000",
+      "codigo_lancamento": "30034"
+    },
+    {
+      "evento": "000",
+      "codigo_lancamento": "30034"
+    },
+    {
+      "evento": "001",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "001",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "002",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "002",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "003",
+      "codigo_lancamento": "30064"
+    },
+    {
+      "evento": "003",
+      "codigo_lancamento": "30064"
+    },
+    {
+      "evento": "009",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "009",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "30061"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "30061"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30067"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30067"
+    },
+    {
+      "evento": "014",
+      "codigo_lancamento": "30066"
+    },
+    {
+      "evento": "014",
+      "codigo_lancamento": "30066"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "30021"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "30021"
+    },
+    {
+      "evento": "016",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "016",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "018",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "018",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "30012"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "30012"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "30021"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "30021"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "050",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "050",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "053",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "053",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "064",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "064",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "078",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "078",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "081",
+      "codigo_lancamento": "30036"
+    },
+    {
+      "evento": "081",
+      "codigo_lancamento": "30036"
+    },
+    {
+      "evento": "082",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "082",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "087",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "087",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "088",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "088",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "089",
+      "codigo_lancamento": "30063"
+    },
+    {
+      "evento": "089",
+      "codigo_lancamento": "30063"
+    },
+    {
+      "evento": "091",
+      "codigo_lancamento": "30054"
+    },
+    {
+      "evento": "091",
+      "codigo_lancamento": "30054"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "100",
+      "codigo_lancamento": "30017"
+    },
+    {
+      "evento": "100",
+      "codigo_lancamento": "30017"
+    },
+    {
+      "evento": "101",
+      "codigo_lancamento": "30030"
+    },
+    {
+      "evento": "101",
+      "codigo_lancamento": "30030"
+    },
+    {
+      "evento": "107",
+      "codigo_lancamento": "30045"
+    },
+    {
+      "evento": "107",
+      "codigo_lancamento": "30045"
+    },
+    {
+      "evento": "112",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "112",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "128",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "128",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "136",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "136",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "141",
+      "codigo_lancamento": "30004"
+    },
+    {
+      "evento": "141",
+      "codigo_lancamento": "30004"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "146",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "146",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "147",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "147",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "151",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "151",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "156",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "156",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "159",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "159",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "161",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "161",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "162",
+      "codigo_lancamento": "30026"
+    },
+    {
+      "evento": "162",
+      "codigo_lancamento": "30026"
+    },
+    {
+      "evento": "163",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "163",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "164",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "164",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "166",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "166",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "168",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "168",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "170",
+      "codigo_lancamento": "30068"
+    },
+    {
+      "evento": "170",
+      "codigo_lancamento": "30068"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "30004"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "30004"
+    },
+    {
+      "evento": "179",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "179",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "184",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "184",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "188",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "188",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "190",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "190",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "195",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "195",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "196",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "196",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "199",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "199",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "200",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "200",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "201",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "201",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "202",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "202",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "203",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "203",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "205",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "205",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "207",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "207",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "210",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "210",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "211",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "211",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "212",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "212",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "214",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "214",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "215",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "215",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "219",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "219",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "224",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "224",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "226",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "226",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "228",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "228",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "30014"
+    },
+    {
+      "evento": "230",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "230",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "239",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "239",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "240",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "240",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "241",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "241",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "242",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "242",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "245",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "245",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "250",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "250",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "251",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "251",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "252",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "252",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "253",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "253",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "255",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "255",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "257",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "257",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "260",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "260",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "261",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "261",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "262",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "262",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "264",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "264",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "268",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "268",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "269",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "269",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "270",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "270",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "273",
+      "codigo_lancamento": "80101"
+    },
+    {
+      "evento": "273",
+      "codigo_lancamento": "80101"
+    },
+    {
+      "evento": "274",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "274",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "301",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "301",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "302",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "302",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "303",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "303",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "305",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "305",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "307",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "307",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "315",
+      "codigo_lancamento": "30025"
+    },
+    {
+      "evento": "315",
+      "codigo_lancamento": "30025"
+    },
+    {
+      "evento": "319",
+      "codigo_lancamento": "30037"
+    },
+    {
+      "evento": "319",
+      "codigo_lancamento": "30037"
+    },
+    {
+      "evento": "321",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "321",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "322",
+      "codigo_lancamento": "30036"
+    },
+    {
+      "evento": "322",
+      "codigo_lancamento": "30036"
+    },
+    {
+      "evento": "323",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "323",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "325",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "325",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "327",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "327",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "330",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "330",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "331",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "331",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "336",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "336",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "337",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "337",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "339",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "339",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "343",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "343",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "348",
+      "codigo_lancamento": "30045"
+    },
+    {
+      "evento": "348",
+      "codigo_lancamento": "30045"
+    },
+    {
+      "evento": "350",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "350",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "351",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "351",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "352",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "352",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "353",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "353",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "354",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "354",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "355",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "355",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "357",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "357",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "359",
+      "codigo_lancamento": "30040"
+    },
+    {
+      "evento": "359",
+      "codigo_lancamento": "30040"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "370",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "370",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "371",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "371",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "373",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "373",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "375",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "375",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "378",
+      "codigo_lancamento": "30040"
+    },
+    {
+      "evento": "378",
+      "codigo_lancamento": "30040"
+    },
+    {
+      "evento": "380",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "380",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "385",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "385",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "386",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "386",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "389",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "389",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "391",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "391",
+      "codigo_lancamento": "30020"
+    },
+    {
+      "evento": "396",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "396",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "397",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "397",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "398",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "398",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "399",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "399",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "413",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "413",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "417",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "417",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "419",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "419",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "430",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "430",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "431",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "431",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "433",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "433",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "30035"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "459",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "459",
+      "codigo_lancamento": "30048"
+    },
+    {
+      "evento": "460",
+      "codigo_lancamento": "30043"
+    },
+    {
+      "evento": "460",
+      "codigo_lancamento": "30043"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "468",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "468",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "469",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "469",
+      "codigo_lancamento": "30006"
+    },
+    {
+      "evento": "485",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "485",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "486",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "486",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "503",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "503",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "597",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "597",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "599",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "599",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "600",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "600",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "602",
+      "codigo_lancamento": "061"
+    },
+    {
+      "evento": "602",
+      "codigo_lancamento": "061"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "604",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "604",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "605",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "605",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "606",
+      "codigo_lancamento": "40011"
+    },
+    {
+      "evento": "606",
+      "codigo_lancamento": "40011"
+    },
+    {
+      "evento": "607",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "607",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "40006"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "40006"
+    },
+    {
+      "evento": "610",
+      "codigo_lancamento": "40032"
+    },
+    {
+      "evento": "610",
+      "codigo_lancamento": "40032"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "613",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "613",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "617",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "617",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "618",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "618",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "629",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "629",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "631",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "631",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "632",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "632",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "634",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "634",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "638",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "638",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "647",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "647",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "648",
+      "codigo_lancamento": "40017"
+    },
+    {
+      "evento": "648",
+      "codigo_lancamento": "40017"
+    },
+    {
+      "evento": "656",
+      "codigo_lancamento": "40033"
+    },
+    {
+      "evento": "656",
+      "codigo_lancamento": "40033"
+    },
+    {
+      "evento": "657",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "657",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "660",
+      "codigo_lancamento": "40035"
+    },
+    {
+      "evento": "660",
+      "codigo_lancamento": "40035"
+    },
+    {
+      "evento": "661",
+      "codigo_lancamento": "40017"
+    },
+    {
+      "evento": "661",
+      "codigo_lancamento": "40017"
+    },
+    {
+      "evento": "662",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "662",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "664",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "664",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "665",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "665",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "667",
+      "codigo_lancamento": "40016"
+    },
+    {
+      "evento": "667",
+      "codigo_lancamento": "40016"
+    },
+    {
+      "evento": "669",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "669",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "671",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "671",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "672",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "672",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "676",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "676",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "677",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "677",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "678",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "678",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "683",
+      "codigo_lancamento": "40031"
+    },
+    {
+      "evento": "683",
+      "codigo_lancamento": "40031"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "688",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "688",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "689",
+      "codigo_lancamento": "40044"
+    },
+    {
+      "evento": "689",
+      "codigo_lancamento": "40044"
+    },
+    {
+      "evento": "691",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "691",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "693",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "693",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "696",
+      "codigo_lancamento": "40001"
+    },
+    {
+      "evento": "696",
+      "codigo_lancamento": "40001"
+    },
+    {
+      "evento": "697",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "697",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "699",
+      "codigo_lancamento": "40031"
+    },
+    {
+      "evento": "699",
+      "codigo_lancamento": "40031"
+    },
+    {
+      "evento": "705",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "705",
+      "codigo_lancamento": "40003"
+    },
+    {
+      "evento": "707",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "707",
+      "codigo_lancamento": "40007"
+    },
+    {
+      "evento": "711",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "711",
+      "codigo_lancamento": "40012"
+    },
+    {
+      "evento": "731",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "731",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "744",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "744",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "766",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "766",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "767",
+      "codigo_lancamento": "40044"
+    },
+    {
+      "evento": "767",
+      "codigo_lancamento": "40044"
+    },
+    {
+      "evento": "768",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "768",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "771",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "771",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "772",
+      "codigo_lancamento": "40001"
+    },
+    {
+      "evento": "772",
+      "codigo_lancamento": "40001"
+    },
+    {
+      "evento": "776",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "776",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "777",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "777",
+      "codigo_lancamento": "40010"
+    },
+    {
+      "evento": "778",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "778",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "781",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "781",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "782",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "782",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "897",
+      "codigo_lancamento": "897"
+    },
+    {
+      "evento": "897",
+      "codigo_lancamento": "897"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "908",
+      "codigo_lancamento": "40025"
+    },
+    {
+      "evento": "908",
+      "codigo_lancamento": "40025"
+    },
+    {
+      "evento": "909",
+      "codigo_lancamento": "40024"
+    },
+    {
+      "evento": "909",
+      "codigo_lancamento": "40024"
+    },
+    {
+      "evento": "914",
+      "codigo_lancamento": "40024"
+    },
+    {
+      "evento": "914",
+      "codigo_lancamento": "40024"
+    },
+    {
+      "evento": "917",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "917",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "921",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "921",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "40023"
+    },
+    {
+      "evento": "927",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "927",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "928",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "928",
+      "codigo_lancamento": "30051"
+    },
+    {
+      "evento": "930",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "930",
+      "codigo_lancamento": "40008"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "30052"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "30052"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "30049"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "30049"
+    },
+    {
+      "evento": "028",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "028",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "029",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "029",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "031",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "031",
+      "codigo_lancamento": "30008"
+    },
+    {
+      "evento": "033",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "033",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "037",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "037",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "038",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "038",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "062",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "062",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "070",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "070",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "071",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "071",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "073",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "073",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "075",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "075",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "079",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "079",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "080",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "080",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "083",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "083",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "084",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "084",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "085",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "085",
+      "codigo_lancamento": "30013"
+    },
+    {
+      "evento": "090",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "090",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "094",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "094",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "099",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "099",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "103",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "103",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "104",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "104",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "110",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "110",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "111",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "111",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "117",
+      "codigo_lancamento": "30061"
+    },
+    {
+      "evento": "117",
+      "codigo_lancamento": "30061"
+    },
+    {
+      "evento": "122",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "122",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "123",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "123",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "124",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "124",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "126",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "126",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "127",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "127",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "131",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "131",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "138",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "138",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "150",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "150",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "173",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "173",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "178",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "178",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "181",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "181",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "182",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "182",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "185",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "185",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "187",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "187",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "197",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "197",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "206",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "206",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "208",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "208",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "221",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "221",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "222",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "222",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "223",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "223",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "238",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "238",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "243",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "243",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "247",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "247",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "276",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "276",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "281",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "281",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "286",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "286",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "287",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "287",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "292",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "292",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "294",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "294",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "320",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "320",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "324",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "324",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "340",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "340",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "344",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "344",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "346",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "346",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "363",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "363",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "366",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "366",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "414",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "414",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "415",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "415",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "416",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "416",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "421",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "421",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "423",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "423",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "424",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "424",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "439",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "439",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "440",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "440",
+      "codigo_lancamento": "30009"
+    },
+    {
+      "evento": "441",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "441",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "442",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "442",
+      "codigo_lancamento": "30011"
+    },
+    {
+      "evento": "443",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "443",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "444",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "444",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "450",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "450",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "451",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "451",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "452",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "452",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "453",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "453",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "454",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "454",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "455",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "455",
+      "codigo_lancamento": "30007"
+    },
+    {
+      "evento": "457",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "457",
+      "codigo_lancamento": "30002"
+    },
+    {
+      "evento": "461",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "461",
+      "codigo_lancamento": "30016"
+    },
+    {
+      "evento": "462",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "462",
+      "codigo_lancamento": "30044"
+    },
+    {
+      "evento": "464",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "464",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "465",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "465",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "466",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "466",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "470",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "470",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "471",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "471",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "473",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "473",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "477",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "477",
+      "codigo_lancamento": "30041"
+    },
+    {
+      "evento": "478",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "478",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "481",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "481",
+      "codigo_lancamento": "30039"
+    },
+    {
+      "evento": "520",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "520",
+      "codigo_lancamento": "30010"
+    },
+    {
+      "evento": "522",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "522",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "523",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "523",
+      "codigo_lancamento": "30038"
+    },
+    {
+      "evento": "526",
+      "codigo_lancamento": "30023"
+    },
+    {
+      "evento": "526",
+      "codigo_lancamento": "30023"
+    },
+    {
+      "evento": "527",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "527",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "533",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "533",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "537",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "537",
+      "codigo_lancamento": "30005"
+    },
+    {
+      "evento": "559",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "559",
+      "codigo_lancamento": "30015"
+    },
+    {
+      "evento": "560",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "560",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "561",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "561",
+      "codigo_lancamento": "30050"
+    },
+    {
+      "evento": "567",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "567",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "568",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "623",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "623",
+      "codigo_lancamento": "40005"
+    },
+    {
+      "evento": "628",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "628",
+      "codigo_lancamento": "40004"
+    },
+    {
+      "evento": "639",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "639",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "654",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "654",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "675",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "675",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "704",
+      "codigo_lancamento": "30054"
+    },
+    {
+      "evento": "704",
+      "codigo_lancamento": "30054"
+    },
+    {
+      "evento": "706",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "706",
+      "codigo_lancamento": "30001"
+    },
+    {
+      "evento": "717",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "717",
+      "codigo_lancamento": "30028"
+    },
+    {
+      "evento": "733",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "733",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "735",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "735",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "736",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "736",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "738",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "738",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "739",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "739",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "743",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "743",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "746",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "746",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "765",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "765",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "786",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "786",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "790",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "790",
+      "codigo_lancamento": "40002"
+    },
+    {
+      "evento": "792",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "792",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "793",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "793",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "794",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "794",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "795",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "795",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "796",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "796",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "797",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "797",
+      "codigo_lancamento": "30042"
+    },
+    {
+      "evento": "803",
+      "codigo_lancamento": "40013"
+    },
+    {
+      "evento": "922",
+      "codigo_lancamento": "40009"
+    },
+    {
+      "evento": "922",
+      "codigo_lancamento": "40009"
+    }
+  
+  ],
+  "Folha Autonomos": [
+    {
+      "evento": "001",
+      "codigo_lancamento": "30060"
+    },
+    {
+      "evento": "002",
+      "codigo_lancamento": "30060"
+    },
+    {
+      "evento": "002",
+      "codigo_lancamento": "30069"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30070"
+    },
+    {
+      "evento": "014",
+      "codigo_lancamento": "30071"
+    }
+  ],
+  "Folha Sócios": [
+    {
+      "evento": "001",
+      "codigo_lancamento": "30003"
+    },
+    {
+      "evento": "003",
+      "codigo_lancamento": "30064"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "30067"
+    },
+    {
+      "evento": "014",
+      "codigo_lancamento": "30066"
+    }
+  ],
+  "Férias": [
+    {
+      "evento": "003",
+      "codigo_lancamento": "80099"
+    },
+    {
+      "evento": "009",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "010",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "50027"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "50006"
+    },
+    {
+      "evento": "014",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "50007"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "50009"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "50028"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "024",
+      "codigo_lancamento": "50023"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "50007"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "50007"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "049",
+      "codigo_lancamento": "50023"
+    },
+    {
+      "evento": "050",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "053",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "064",
+      "codigo_lancamento": "50017"
+    },
+    {
+      "evento": "069",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "072",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "078",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "081",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "087",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "50001"
+    },
+    {
+      "evento": "100",
+      "codigo_lancamento": "50016"
+    },
+    {
+      "evento": "107",
+      "codigo_lancamento": "50029"
+    },
+    {
+      "evento": "128",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "50015"
+    },
+    {
+      "evento": "141",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "146",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "147",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "156",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "159",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "161",
+      "codigo_lancamento": "50009"
+    },
+    {
+      "evento": "164",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "168",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "184",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "190",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "195",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "199",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "200",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "215",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "50015"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "228",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "239",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "241",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "242",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "268",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "270",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "291",
+      "codigo_lancamento": "50024"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "322",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "328",
+      "codigo_lancamento": "50027"
+    },
+    {
+      "evento": "331",
+      "codigo_lancamento": "50030"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "336",
+      "codigo_lancamento": "50030"
+    },
+    {
+      "evento": "339",
+      "codigo_lancamento": "50013"
+    },
+    {
+      "evento": "343",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "379",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "385",
+      "codigo_lancamento": "50001"
+    },
+    {
+      "evento": "386",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "389",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "396",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "417",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "419",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "50006"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "50011"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "50032"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "50001"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "50015"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "50030"
+    },
+    {
+      "evento": "460",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "468",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "469",
+      "codigo_lancamento": "50004"
+    },
+    {
+      "evento": "485",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "489",
+      "codigo_lancamento": "50022"
+    },
+    {
+      "evento": "596",
+      "codigo_lancamento": "50023"
+    },
+    {
+      "evento": "597",
+      "codigo_lancamento": "50023"
+    },
+    {
+      "evento": "598",
+      "codigo_lancamento": "50024"
+    },
+    {
+      "evento": "602",
+      "codigo_lancamento": "062"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "610",
+      "codigo_lancamento": "70040"
+    },
+    {
+      "evento": "619",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "620",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "634",
+      "codigo_lancamento": "60005"
+    },
+    {
+      "evento": "657",
+      "codigo_lancamento": "60005"
+    },
+    {
+      "evento": "676",
+      "codigo_lancamento": "60005"
+    },
+    {
+      "evento": "677",
+      "codigo_lancamento": "60005"
+    },
+    {
+      "evento": "679",
+      "codigo_lancamento": "60004"
+    },
+    {
+      "evento": "707",
+      "codigo_lancamento": "60005"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "902",
+      "codigo_lancamento": "60001"
+    },
+    {
+      "evento": "913",
+      "codigo_lancamento": "60002"
+    },
+    {
+      "evento": "916",
+      "codigo_lancamento": "50026"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "50021"
+    },
+    {
+      "evento": "031",
+      "codigo_lancamento": "50006"
+    },
+    {
+      "evento": "033",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "037",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "038",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "059",
+      "codigo_lancamento": "50027"
+    },
+    {
+      "evento": "067",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "070",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "071",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "073",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "075",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "079",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "083",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "084",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "085",
+      "codigo_lancamento": "50010"
+    },
+    {
+      "evento": "090",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "094",
+      "codigo_lancamento": "50007"
+    },
+    {
+      "evento": "103",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "104",
+      "codigo_lancamento": "50005"
+    },
+    {
+      "evento": "110",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "111",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "113",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "117",
+      "codigo_lancamento": "50027"
+    },
+    {
+      "evento": "121",
+      "codigo_lancamento": "50012"
+    },
+    {
+      "evento": "123",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "124",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "127",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "131",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "140",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "142",
+      "codigo_lancamento": "50031"
+    },
+    {
+      "evento": "150",
+      "codigo_lancamento": "50031"
+    },
+    {
+      "evento": "173",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "178",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "181",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "182",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "187",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "197",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "216",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "221",
+      "codigo_lancamento": "50031"
+    },
+    {
+      "evento": "236",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "238",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "243",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "247",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "248",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "287",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "324",
+      "codigo_lancamento": "50030"
+    },
+    {
+      "evento": "326",
+      "codigo_lancamento": "50030"
+    },
+    {
+      "evento": "340",
+      "codigo_lancamento": "50007"
+    },
+    {
+      "evento": "345",
+      "codigo_lancamento": "50006"
+    },
+    {
+      "evento": "366",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "414",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "415",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "416",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "423",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "424",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "470",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "471",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "478",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "520",
+      "codigo_lancamento": "50008"
+    },
+    {
+      "evento": "522",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "523",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "524",
+      "codigo_lancamento": "50028"
+    },
+    {
+      "evento": "526",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "533",
+      "codigo_lancamento": "50019"
+    },
+    {
+      "evento": "537",
+      "codigo_lancamento": "50002"
+    },
+    {
+      "evento": "554",
+      "codigo_lancamento": "50020"
+    },
+    {
+      "evento": "650",
+      "codigo_lancamento": "50023"
+    },
+    {
+      "evento": "706",
+      "codigo_lancamento": "50003"
+    },
+    {
+      "evento": "733",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "735",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "736",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "738",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "739",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "743",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "746",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "765",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "792",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "793",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "794",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "795",
+      "codigo_lancamento": "60003"
+    },
+    {
+      "evento": "796",
+      "codigo_lancamento": "60003"
+    }
+  ],
+  "Rescisão": [
+    {
+      "evento": "001",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "001",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "007",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "007",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "008",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "008",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "011",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "012",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "013",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "015",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "017",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "019",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "019",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "70009"
+    },
+    {
+      "evento": "020",
+      "codigo_lancamento": "70009"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "70021"
+    },
+    {
+      "evento": "021",
+      "codigo_lancamento": "70021"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "023",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "025",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "026",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "030",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "034",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "035",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "036",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "040",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "041",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "042",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "043",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "044",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "045",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "046",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "047",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "048",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "050",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "050",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "051",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "052",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "053",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "053",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "064",
+      "codigo_lancamento": "70043"
+    },
+    {
+      "evento": "072",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "072",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "074",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "078",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "078",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "081",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "081",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "082",
+      "codigo_lancamento": "70013"
+    },
+    {
+      "evento": "082",
+      "codigo_lancamento": "70013"
+    },
+    {
+      "evento": "087",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "087",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "089",
+      "codigo_lancamento": "70039"
+    },
+    {
+      "evento": "089",
+      "codigo_lancamento": "70039"
+    },
+    {
+      "evento": "091",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "091",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "70001"
+    },
+    {
+      "evento": "093",
+      "codigo_lancamento": "70001"
+    },
+    {
+      "evento": "100",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "100",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "101",
+      "codigo_lancamento": "70034"
+    },
+    {
+      "evento": "101",
+      "codigo_lancamento": "70034"
+    },
+    {
+      "evento": "107",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "107",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "133",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "141",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "141",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "144",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "146",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "146",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "147",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "147",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "148",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "156",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "156",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "159",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "159",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "161",
+      "codigo_lancamento": "70009"
+    },
+    {
+      "evento": "161",
+      "codigo_lancamento": "70009"
+    },
+    {
+      "evento": "162",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "162",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "164",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "164",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "165",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "167",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "172",
+      "codigo_lancamento": "70002"
+    },
+    {
+      "evento": "188",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "188",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "195",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "195",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "196",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "196",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "199",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "199",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "201",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "201",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "202",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "202",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "203",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "203",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "205",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "205",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "207",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "207",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "210",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "210",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "211",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "211",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "212",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "212",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "214",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "214",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "215",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "215",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "219",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "219",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "220",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "227",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "229",
+      "codigo_lancamento": "70024"
+    },
+    {
+      "evento": "230",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "232",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "233",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "239",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "239",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "241",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "241",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "242",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "242",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "244",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "254",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "254",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "266",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "268",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "268",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "270",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "270",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "288",
+      "codigo_lancamento": "70020"
+    },
+    {
+      "evento": "288",
+      "codigo_lancamento": "70020"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "308",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "315",
+      "codigo_lancamento": "70014"
+    },
+    {
+      "evento": "315",
+      "codigo_lancamento": "70014"
+    },
+    {
+      "evento": "319",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "319",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "322",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "322",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "327",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "327",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "331",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "331",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "332",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "333",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "336",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "336",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "337",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "337",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "339",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "339",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "343",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "343",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "348",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "348",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "354",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "354",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "361",
+      "codigo_lancamento": "70041"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "377",
+      "codigo_lancamento": "70029"
+    },
+    {
+      "evento": "378",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "378",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "382",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "383",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "384",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "385",
+      "codigo_lancamento": "70001"
+    },
+    {
+      "evento": "385",
+      "codigo_lancamento": "70001"
+    },
+    {
+      "evento": "386",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "386",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "392",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "392",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "393",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "393",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "394",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "394",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "395",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "395",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "396",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "396",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "397",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "397",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "398",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "398",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "399",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "399",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "417",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "417",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "419",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "419",
+      "codigo_lancamento": "70016"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "433",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "433",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "70012"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "70031"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "468",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "468",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "469",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "469",
+      "codigo_lancamento": "70005"
+    },
+    {
+      "evento": "484",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "484",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "485",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "485",
+      "codigo_lancamento": "70003"
+    },
+    {
+      "evento": "486",
+      "codigo_lancamento": "80059"
+    },
+    {
+      "evento": "486",
+      "codigo_lancamento": "80059"
+    },
+    {
+      "evento": "488",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "488",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "490",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "491",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "491",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "492",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "492",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "493",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "493",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "494",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "494",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "495",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "495",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "496",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "496",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "497",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "497",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "498",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "498",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "499",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "499",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "500",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "500",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "501",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "501",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "502",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "502",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "503",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "503",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "504",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "504",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "505",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "505",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "506",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "506",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "508",
+      "codigo_lancamento": "70036"
+    },
+    {
+      "evento": "508",
+      "codigo_lancamento": "70036"
+    },
+    {
+      "evento": "509",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "509",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "510",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "510",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "511",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "511",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "515",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "515",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "516",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "516",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "595",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "595",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "597",
+      "codigo_lancamento": "70043"
+    },
+    {
+      "evento": "597",
+      "codigo_lancamento": "70043"
+    },
+    {
+      "evento": "599",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "599",
+      "codigo_lancamento": "70019"
+    },
+    {
+      "evento": "600",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "600",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "602",
+      "codigo_lancamento": "063"
+    },
+    {
+      "evento": "602",
+      "codigo_lancamento": "063"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "604",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "604",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "606",
+      "codigo_lancamento": "80011"
+    },
+    {
+      "evento": "606",
+      "codigo_lancamento": "80011"
+    },
+    {
+      "evento": "607",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "607",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "608",
+      "codigo_lancamento": "80098"
+    },
+    {
+      "evento": "608",
+      "codigo_lancamento": "80098"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "612",
+      "codigo_lancamento": "80028"
+    },
+    {
+      "evento": "612",
+      "codigo_lancamento": "80028"
+    },
+    {
+      "evento": "613",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "613",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "614",
+      "codigo_lancamento": "80029"
+    },
+    {
+      "evento": "614",
+      "codigo_lancamento": "80029"
+    },
+    {
+      "evento": "617",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "617",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "618",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "618",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "619",
+      "codigo_lancamento": "80096"
+    },
+    {
+      "evento": "619",
+      "codigo_lancamento": "80096"
+    },
+    {
+      "evento": "631",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "631",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "632",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "632",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "634",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "634",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "638",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "638",
+      "codigo_lancamento": "80008"
+    },
+    {
+      "evento": "647",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "647",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "653",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "653",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "656",
+      "codigo_lancamento": "80094"
+    },
+    {
+      "evento": "656",
+      "codigo_lancamento": "80094"
+    },
+    {
+      "evento": "657",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "657",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "661",
+      "codigo_lancamento": "80017"
+    },
+    {
+      "evento": "661",
+      "codigo_lancamento": "80017"
+    },
+    {
+      "evento": "662",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "662",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "663",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "663",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "664",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "664",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "667",
+      "codigo_lancamento": "80018"
+    },
+    {
+      "evento": "667",
+      "codigo_lancamento": "80018"
+    },
+    {
+      "evento": "669",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "669",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "671",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "671",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "672",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "672",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "676",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "676",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "677",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "677",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "684",
+      "codigo_lancamento": "80017"
+    },
+    {
+      "evento": "684",
+      "codigo_lancamento": "80017"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "688",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "688",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "689",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "689",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "693",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "693",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "80003"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "80003"
+    },
+    {
+      "evento": "696",
+      "codigo_lancamento": "80001"
+    },
+    {
+      "evento": "696",
+      "codigo_lancamento": "80001"
+    },
+    {
+      "evento": "697",
+      "codigo_lancamento": "80059"
+    },
+    {
+      "evento": "697",
+      "codigo_lancamento": "80059"
+    },
+    {
+      "evento": "699",
+      "codigo_lancamento": "80032"
+    },
+    {
+      "evento": "699",
+      "codigo_lancamento": "80032"
+    },
+    {
+      "evento": "705",
+      "codigo_lancamento": "80003"
+    },
+    {
+      "evento": "705",
+      "codigo_lancamento": "80003"
+    },
+    {
+      "evento": "707",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "707",
+      "codigo_lancamento": "80007"
+    },
+    {
+      "evento": "711",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "711",
+      "codigo_lancamento": "80012"
+    },
+    {
+      "evento": "731",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "731",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "766",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "766",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "768",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "769",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "769",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "771",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "771",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "772",
+      "codigo_lancamento": "80001"
+    },
+    {
+      "evento": "772",
+      "codigo_lancamento": "80001"
+    },
+    {
+      "evento": "776",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "776",
+      "codigo_lancamento": "80010"
+    },
+    {
+      "evento": "778",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "778",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "781",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "781",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "782",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "782",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "900",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "900",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "901",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "901",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "908",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "908",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "910",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "910",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "911",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "911",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "912",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "912",
+      "codigo_lancamento": "80031"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "80030"
+    },
+    {
+      "evento": "927",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "927",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "928",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "928",
+      "codigo_lancamento": "70015"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "70037"
+    },
+    {
+      "evento": "031",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "031",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "033",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "033",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "037",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "037",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "038",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "038",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "059",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "059",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "062",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "062",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "067",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "067",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "070",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "070",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "071",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "071",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "073",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "073",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "075",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "075",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "079",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "079",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "083",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "083",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "084",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "084",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "085",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "085",
+      "codigo_lancamento": "70007"
+    },
+    {
+      "evento": "090",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "090",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "092",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "092",
+      "codigo_lancamento": "70011"
+    },
+    {
+      "evento": "094",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "094",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "095",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "095",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "096",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "096",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "097",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "097",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "103",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "103",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "104",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "104",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "110",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "110",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "111",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "111",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "117",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "117",
+      "codigo_lancamento": "70038"
+    },
+    {
+      "evento": "122",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "122",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "123",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "123",
+      "codigo_lancamento": "70008"
+    },
+    {
+      "evento": "124",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "124",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "127",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "127",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "131",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "131",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "150",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "150",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "173",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "173",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "178",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "178",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "181",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "181",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "182",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "182",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "187",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "187",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "197",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "197",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "221",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "221",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "238",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "238",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "243",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "243",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "247",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "247",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "287",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "287",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "324",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "324",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "326",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "326",
+      "codigo_lancamento": "70042"
+    },
+    {
+      "evento": "340",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "340",
+      "codigo_lancamento": "70006"
+    },
+    {
+      "evento": "345",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "345",
+      "codigo_lancamento": "70022"
+    },
+    {
+      "evento": "366",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "366",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "414",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "414",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "415",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "415",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "416",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "416",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "421",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "421",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "423",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "423",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "424",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "424",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "470",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "470",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "471",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "471",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "478",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "478",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "487",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "487",
+      "codigo_lancamento": "70030"
+    },
+    {
+      "evento": "514",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "514",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "518",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "518",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "520",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "520",
+      "codigo_lancamento": "70010"
+    },
+    {
+      "evento": "522",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "522",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "523",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "523",
+      "codigo_lancamento": "70023"
+    },
+    {
+      "evento": "526",
+      "codigo_lancamento": "70028"
+    },
+    {
+      "evento": "526",
+      "codigo_lancamento": "70028"
+    },
+    {
+      "evento": "533",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "533",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "534",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "534",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "537",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "537",
+      "codigo_lancamento": "70004"
+    },
+    {
+      "evento": "623",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "623",
+      "codigo_lancamento": "80005"
+    },
+    {
+      "evento": "628",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "628",
+      "codigo_lancamento": "80004"
+    },
+    {
+      "evento": "639",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "639",
+      "codigo_lancamento": "80013"
+    },
+    {
+      "evento": "654",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "654",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "675",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "675",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "701",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "701",
+      "codigo_lancamento": "70035"
+    },
+    {
+      "evento": "704",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "704",
+      "codigo_lancamento": "70032"
+    },
+    {
+      "evento": "706",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "706",
+      "codigo_lancamento": "70033"
+    },
+    {
+      "evento": "717",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "717",
+      "codigo_lancamento": "70025"
+    },
+    {
+      "evento": "733",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "733",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "735",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "735",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "736",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "736",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "738",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "738",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "739",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "739",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "743",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "743",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "746",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "746",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "765",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "765",
+      "codigo_lancamento": "80009"
+    },
+    {
+      "evento": "786",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "786",
+      "codigo_lancamento": "70018"
+    },
+    {
+      "evento": "790",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "790",
+      "codigo_lancamento": "80002"
+    },
+    {
+      "evento": "792",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "792",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "793",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "793",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "794",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "794",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "795",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "795",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "796",
+      "codigo_lancamento": "80006"
+    },
+    {
+      "evento": "796",
+      "codigo_lancamento": "80006"
+    }
+  ],
+  "Adiantamento": [
+    {
+      "evento": "606",
+      "codigo_lancamento": "40011"
+    }
+  ]
+}
