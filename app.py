@@ -9,6 +9,7 @@ import json
 import csv
 from collections import defaultdict
 from typing import List, Tuple
+from datetime import datetime
 
 import streamlit as st
 import pandas as pd
@@ -18,6 +19,18 @@ try:
     import pdfplumber
 except Exception:
     st.error("Falta a dependência 'pdfplumber'. Instale com: pip install pdfplumber")
+    raise
+
+# -------------- Dependência ReportLab para geração de PDF --------------
+try:
+    from reportlab.lib import colors
+    from reportlab.lib.pagesizes import A4, landscape
+    from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+    from reportlab.lib.units import inch
+    from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer, PageBreak
+    from reportlab.lib.enums import TA_CENTER, TA_LEFT
+except Exception:
+    st.error("Falta a dependência 'reportlab'. Instale com: pip install reportlab")
     raise
 
 # -------------- Utils --------------
@@ -75,6 +88,150 @@ def money(n: float | int | None) -> str:
     if n is None:
         return "R$ 0,00"
     return f"R$ {n:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+# -------------- Geração de PDF --------------
+def generate_pdf_report(df: pd.DataFrame, title: str, subtitle: str = "") -> bytes:
+    """
+    Gera um PDF a partir de um DataFrame.
+
+    Args:
+        df: DataFrame com os dados
+        title: Título do relatório
+        subtitle: Subtítulo opcional
+
+    Returns:
+        bytes: Conteúdo do PDF em bytes
+    """
+    buffer = io.BytesIO()
+
+    # Criar documento em paisagem para tabelas largas
+    doc = SimpleDocTemplate(buffer, pagesize=landscape(A4),
+                           rightMargin=30, leftMargin=30,
+                           topMargin=30, bottomMargin=18)
+
+    # Container para elementos
+    elements = []
+
+    # Estilos
+    styles = getSampleStyleSheet()
+    title_style = ParagraphStyle(
+        'CustomTitle',
+        parent=styles['Heading1'],
+        fontSize=16,
+        textColor=colors.HexColor('#1f4788'),
+        spaceAfter=12,
+        alignment=TA_CENTER
+    )
+    subtitle_style = ParagraphStyle(
+        'CustomSubtitle',
+        parent=styles['Normal'],
+        fontSize=10,
+        textColor=colors.grey,
+        spaceAfter=12,
+        alignment=TA_CENTER
+    )
+
+    # Adicionar título
+    elements.append(Paragraph(title, title_style))
+
+    # Adicionar subtítulo se fornecido
+    if subtitle:
+        elements.append(Paragraph(subtitle, subtitle_style))
+
+    # Adicionar data de geração
+    data_geracao = f"Gerado em: {datetime.now().strftime('%d/%m/%Y às %H:%M')}"
+    elements.append(Paragraph(data_geracao, subtitle_style))
+    elements.append(Spacer(1, 12))
+
+    # Preparar dados da tabela
+    if df.empty:
+        elements.append(Paragraph("Nenhum dado disponível", styles['Normal']))
+    else:
+        # Estilo para células
+        cell_style = ParagraphStyle(
+            'CellStyle',
+            parent=styles['Normal'],
+            fontSize=7,
+            leading=9,
+            wordWrap='LTR',
+            alignment=TA_LEFT
+        )
+
+        # Cabeçalhos (como strings simples)
+        data = [df.columns.tolist()]
+
+        # Dados (usar Paragraph para quebra de linha automática)
+        for _, row in df.iterrows():
+            row_data = []
+            for val in row:
+                val_str = str(val) if val is not None else ""
+                # Usar Paragraph para permitir quebra de texto
+                row_data.append(Paragraph(val_str, cell_style))
+            data.append(row_data)
+
+        # Calcular largura das colunas dinamicamente
+        num_cols = len(df.columns)
+        available_width = landscape(A4)[0] - 60  # Largura disponível (descontando margens)
+
+        # Ajustar larguras: dar mais espaço para colunas de texto (Descrição, Eventos)
+        col_widths = []
+        for col_name in df.columns:
+            if 'descrição' in col_name.lower() or 'descricao' in col_name.lower():
+                col_widths.append(available_width * 0.25)  # 25% para descrição
+            elif 'eventos' in col_name.lower():
+                col_widths.append(available_width * 0.15)  # 15% para eventos
+            else:
+                # Distribuir resto igualmente
+                remaining_cols = num_cols - sum(1 for c in df.columns if 'descrição' in c.lower() or 'descricao' in c.lower() or 'eventos' in c.lower())
+                if remaining_cols > 0:
+                    col_widths.append((available_width * 0.60) / remaining_cols)
+                else:
+                    col_widths.append(available_width / num_cols)
+
+        # Ajustar se total não bate
+        total_width = sum(col_widths)
+        if total_width != available_width:
+            factor = available_width / total_width
+            col_widths = [w * factor for w in col_widths]
+
+        # Criar tabela
+        table = Table(data, colWidths=col_widths, repeatRows=1)
+
+        # Estilo da tabela
+        table.setStyle(TableStyle([
+            # Cabeçalho
+            ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#1f4788')),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('FONTSIZE', (0, 0), (-1, 0), 9),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+
+            # Corpo
+            ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+            ('TEXTCOLOR', (0, 1), (-1, -1), colors.black),
+            ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+            ('FONTSIZE', (0, 1), (-1, -1), 7),
+            ('ALIGN', (0, 1), (-1, -1), 'LEFT'),
+
+            # Linhas alternadas
+            ('ROWBACKGROUNDS', (0, 1), (-1, -1), [colors.white, colors.HexColor('#f0f0f0')]),
+
+            # Bordas
+            ('GRID', (0, 0), (-1, -1), 0.5, colors.grey),
+            ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+            ('LEFTPADDING', (0, 0), (-1, -1), 6),
+            ('RIGHTPADDING', (0, 0), (-1, -1), 6),
+        ]))
+
+        elements.append(table)
+
+    # Construir PDF
+    doc.build(elements)
+
+    # Retornar bytes
+    buffer.seek(0)
+    return buffer.getvalue()
 
 # -------------- Mapeamento --------------
 def find_mapping_path() -> str | None:
@@ -440,7 +597,7 @@ def sum_txt_by_event(df_txt: pd.DataFrame, ev_map: pd.DataFrame, la2cat: dict) -
 def compare_by_categoria(pdf_sum: pd.DataFrame, txt_sum: pd.DataFrame) -> pd.DataFrame:
     """
     Compara PDF x TXT por categoria.
-    Versão simplificada: mostra apenas os Líquidos e se estão batendo.
+    Versão simplificada: mostra apenas os Líquidos e se estão OK.
     """
     # Merge dos dois DataFrames
     result = pdf_sum.merge(
@@ -569,7 +726,7 @@ def extract_taxes_report(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapp
     Retorna DataFrame com: Tipo Imposto, Código LA, Eventos, Descrição, Valor PDF, Valor TXT, Diferença
     """
     # Definir códigos de impostos
-    INSS_CODES = ["897", "30039", "30055", "30056", "30057", "30072", "30073", "40023", "60001", "70019", "80030"]
+    INSS_CODES = ["897", "30039", "30050", "30055", "30056", "30057", "30067","30072", "30073", "40023", "60001", "70019", "80030"]
     IRRF_CODES = ["30058", "40024", "40025", "50003", "60002", "80031"]
     FGTS_CODES = ["30051", "30059", "50026", "70015"]
     TAX_CODES = INSS_CODES + IRRF_CODES + FGTS_CODES
@@ -707,11 +864,25 @@ def extract_taxes_report(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapp
 
     return result
 
+def extract_folha_socios_codes(mapping: dict) -> list:
+    """
+    Extrai todos os códigos LA relacionados à categoria 'Folha Sócios'.
+    """
+    folha_socios_codes = []
+    if "Folha Sócios" in mapping:
+        for item in mapping["Folha Sócios"]:
+            cod = str(item.get("codigo_lancamento", "")).strip()
+            if cod:
+                folha_socios_codes.append(cod)
+    return folha_socios_codes
+
 def composition_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapping: dict) -> pd.DataFrame:
     """
     Gera relatório de composição por Código de Lançamento (LA).
-    EXCLUI apenas códigos específicos de FGTS (30051, 30059, 50026, 70015) e INSS (30072, 30073).
-    Mantém todos os outros códigos, incluindo IRRF e demais códigos de INSS.
+    EXCLUI:
+    - Códigos específicos de FGTS (30051, 30059, 50026, 70015)
+    - Códigos específicos de INSS (30072, 30073)
+    - Códigos relacionados à categoria 'Folha Sócios'
 
     Formato:
     - Código de Lançamento
@@ -723,6 +894,10 @@ def composition_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, 
     """
     # Códigos a serem EXCLUÍDOS da tabela de composição
     EXCLUDED_CODES = ["30051", "30059", "50026", "70015", "30072", "30073"]
+
+    # Adicionar códigos de Folha Sócios à lista de exclusão
+    folha_socios_codes = extract_folha_socios_codes(mapping)
+    EXCLUDED_CODES.extend(folha_socios_codes)
 
     ev2la = mapping_event_to_la(mapping)
 
@@ -816,8 +991,119 @@ def composition_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, 
 
     return result
 
+def folha_socios_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapping: dict) -> pd.DataFrame:
+    """
+    Gera relatório exclusivo para códigos LA da categoria 'Folha Sócios'.
+    Busca dados tanto do PDF (categoria 'Folha Sócios') quanto do TXT (descrição com 'socio' ou 'pro labore').
+
+    Formato:
+    - Código de Lançamento
+    - Eventos (lista de eventos que compõem o LA presentes na folha)
+    - Descrição do código (TXT)
+    - Valor PDF
+    - Valor TXT
+    - Diferença
+    """
+    ev2la = mapping_event_to_la(mapping)
+
+    # ========== PARTE 1: Processar PDF - Categoria "Folha Sócios" ==========
+    pdf_grouped = pd.DataFrame(columns=["CodigoLA", "Eventos", "ValorPDF"])
+
+    if not df_pdf_events.empty and not ev2la.empty:
+        # Filtrar apenas eventos da categoria "Folha Sócios" no PDF
+        pdf_folha_socios = df_pdf_events[df_pdf_events["Categoria"] == "Folha Sócios"].copy()
+
+        if not pdf_folha_socios.empty:
+            # Preparar PDF
+            pdf_m = pdf_folha_socios.copy()
+            pdf_m["EventoCod"] = pdf_m["EventoCod"].astype(str).str.replace(r"[^\d]", "", regex=True)
+
+            ev2la_clean = ev2la.copy()
+            ev2la_clean["EventoCod"] = ev2la_clean["EventoCod"].astype(str).str.replace(r"[^\d]", "", regex=True)
+
+            # Join PDF events com mapeamento LA
+            joined = pdf_m.merge(ev2la_clean, on=["Categoria", "EventoCod"], how="left")
+            joined = joined.dropna(subset=["CodigoLA"])
+
+            if not joined.empty:
+                # Agrupar por LA: listar eventos e somar valores PDF
+                pdf_grouped = joined.groupby("CodigoLA").agg({
+                    "EventoCod": lambda x: ", ".join(sorted(set(x.astype(str)))),
+                    "Valor": "sum"
+                }).reset_index()
+                pdf_grouped.columns = ["CodigoLA", "Eventos", "ValorPDF"]
+
+    # ========== PARTE 2: Processar TXT - Descrição contém "socio" ou "pro labore" ==========
+    txt_grouped = pd.DataFrame(columns=["CodigoLA", "Descricao", "ValorTXT"])
+
+    if not df_txt.empty:
+        # Filtrar TXT: descrições que contenham "socio", "sócio" ou "pro labore"
+        df_txt_copy = df_txt.copy()
+        df_txt_copy["desc_norm"] = df_txt_copy["Descricao"].apply(normalize_text)
+
+        txt_folha_socios = df_txt_copy[
+            df_txt_copy["desc_norm"].str.contains("socio|pro labore|prolabore", na=False, regex=True)
+        ].copy()
+
+        if not txt_folha_socios.empty:
+            txt_grouped = txt_folha_socios.groupby("CodigoLA").agg({
+                "Descricao": "first",  # Pegar primeira descrição do grupo
+                "Valor": "sum"
+            }).reset_index()
+            txt_grouped.columns = ["CodigoLA", "Descricao", "ValorTXT"]
+
+    # ========== PARTE 3: Merge PDF + TXT ==========
+    if pdf_grouped.empty and txt_grouped.empty:
+        return pd.DataFrame(columns=[
+            "Código de Lançamento",
+            "Eventos",
+            "Descrição (TXT)",
+            "Valor PDF",
+            "Valor TXT",
+            "Diferença"
+        ])
+
+    # Merge completo (outer join para pegar tudo)
+    result = pdf_grouped.merge(txt_grouped, on="CodigoLA", how="outer")
+    result["Eventos"] = result["Eventos"].fillna("")
+    result["Descricao"] = result["Descricao"].fillna("Sem descrição")
+    result["ValorPDF"] = result["ValorPDF"].fillna(0.0)
+    result["ValorTXT"] = result["ValorTXT"].fillna(0.0)
+
+    # Aplicar absoluto antes de calcular diferença
+    result["ValorPDF"] = result["ValorPDF"].abs()
+    result["ValorTXT"] = result["ValorTXT"].abs()
+    result["Diferenca"] = result["ValorPDF"] - result["ValorTXT"]
+
+    # Renomear colunas para formato final
+    result = result.rename(columns={
+        "CodigoLA": "Código de Lançamento",
+        "Descricao": "Descrição (TXT)",
+        "ValorPDF": "Valor PDF",
+        "ValorTXT": "Valor TXT",
+        "Diferenca": "Diferença"
+    })
+
+    # Ordenar por código LA
+    try:
+        result["_la_num"] = result["Código de Lançamento"].astype(float)
+        result = result.sort_values("_la_num").drop(columns=["_la_num"])
+    except Exception:
+        result = result.sort_values("Código de Lançamento")
+
+    result = result[[
+        "Código de Lançamento",
+        "Eventos",
+        "Descrição (TXT)",
+        "Valor PDF",
+        "Valor TXT",
+        "Diferença"
+    ]].reset_index(drop=True)
+
+    return result
+
 # -------------- UI --------------
-st.set_page_config(page_title="Confronto Folha x Lote Contábil", layout="wide", page_icon="📊")
+st.set_page_config(page_title="📊 Conferência Input DP", layout="wide", page_icon="📊")
 
 # Session state
 if "report_cat_df" not in st.session_state:
@@ -826,9 +1112,11 @@ if "report_composition_df" not in st.session_state:
     st.session_state.report_composition_df = None
 if "report_taxes_df" not in st.session_state:
     st.session_state.report_taxes_df = None
+if "report_folha_socios_df" not in st.session_state:
+    st.session_state.report_folha_socios_df = None
 
 # Título principal
-st.title("📊 Confronto Folha x Lote Contábil")
+st.title("📊 Conferência Input DP")
 st.markdown("---")
 
 # Carrega mapeamento
@@ -837,7 +1125,7 @@ if not mapping:
     st.stop()
 
 # Área de upload na página principal
-st.header("📁 Arquivos de Entrada")
+st.header("📁 Arquivos para Confronto")
 col1, col2 = st.columns(2)
 
 with col1:
@@ -845,26 +1133,26 @@ with col1:
     pdf_file = st.file_uploader("Selecione o arquivo PDF", type=["pdf"], accept_multiple_files=False, label_visibility="collapsed")
 
 with col2:
-    st.markdown("**TXT/CSV do Lote Contábil**")
-    txt_file = st.file_uploader("Selecione o arquivo TXT/CSV", type=["txt", "csv"], accept_multiple_files=False, label_visibility="collapsed")
+    st.markdown("**TXT do Lote Contábil**")
+    txt_file = st.file_uploader("Selecione o arquivo TXT", type=["txt", "csv"], accept_multiple_files=False, label_visibility="collapsed")
 
 # Botão para usar exemplos
-use_examples = st.button("🔍 Usar arquivos de exemplo", help="Carrega arquivos de exemplo do sistema (se disponíveis)")
+# use_examples = st.button("🔍 Usar arquivos de exemplo", help="Carrega arquivos de exemplo do sistema (se disponíveis)")
 
 st.markdown("---")
 # Entrada de arquivos
 pdf_bytes = pdf_file.getvalue() if pdf_file is not None else None
 txt_bytes = txt_file.getvalue() if txt_file is not None else None
 
-if use_examples:
-    try:
-        with open("/mnt/data/Resumo Folha.pdf", "rb") as f:
-            pdf_bytes = f.read()
-        with open("/mnt/data/Lote Contábil.txt", "rb") as f:
-            txt_bytes = f.read()
-        st.success("Arquivos de exemplo carregados!")
-    except Exception as e:
-        st.error(f"Não encontrei os arquivos de exemplo: {e}")
+# if use_examples:
+#     try:
+#         with open("/mnt/data/Resumo Folha.pdf", "rb") as f:
+#             pdf_bytes = f.read()
+#         with open("/mnt/data/Lote Contábil.txt", "rb") as f:
+#             txt_bytes = f.read()
+#         st.success("Arquivos de exemplo carregados!")
+#     except Exception as e:
+#         st.error(f"Não encontrei os arquivos de exemplo: {e}")
 
 if pdf_bytes and txt_bytes:
     # Processar arquivos
@@ -918,18 +1206,68 @@ if pdf_bytes and txt_bytes:
 
     # ========== RESUMO POR CATEGORIA DO PDF ==========
     st.markdown("---")
-    st.header("📊 Resumo por Categoria (PDF)")
-    st.caption("Valores extraídos e consolidados do PDF da folha de pagamento")
+    st.header("📊 Resumo por Categoria (Folha)")
+    st.caption("Valores líquidos extraídos do PDF da folha de pagamento")
+    st.markdown("")  # Espaçamento
 
-    pdf_sum_display = pdf_sum.copy()
-    pdf_sum_display["Adicionais"] = pdf_sum_display["Adicionais"].apply(money)
-    pdf_sum_display["Descontos"] = pdf_sum_display["Descontos"].apply(money)
-    pdf_sum_display["Líquido"] = pdf_sum_display["Liquido"].apply(money)
-    st.dataframe(
-        pdf_sum_display[["Categoria", "Adicionais", "Descontos", "Líquido"]],
-        use_container_width=True,
-        height=300
-    )
+    # Definir cores para cada categoria
+    category_colors = {
+        "Folha": ("linear-gradient(135deg, #667eea 0%, #764ba2 100%)", "💼"),
+        "Folha Sócios": ("linear-gradient(135deg, #fa709a 0%, #fee140 100%)", "👔"),
+        "Rescisão": ("linear-gradient(135deg, #f093fb 0%, #f5576c 100%)", "📋"),
+        "Férias": ("linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)", "🏖️"),
+        "13º Primeira Parcela": ("linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)", "🎁"),
+        "13º Segunda Parcela": ("linear-gradient(135deg, #fa709a 0%, #fee140 100%)", "🎄"),
+        "Adiantamento": ("linear-gradient(135deg, #30cfd0 0%, #330867 100%)", "💰"),
+        "Pró-Labore": ("linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)", "💵"),
+        "Default": ("linear-gradient(135deg, #667eea 0%, #764ba2 100%)", "📊")
+    }
+
+    # Criar cards para cada categoria
+    if not pdf_sum.empty:
+        # Determinar número de colunas (máximo 3 por linha)
+        num_categorias = len(pdf_sum)
+        num_colunas = min(3, num_categorias)
+
+        # Criar linhas de cards
+        for i in range(0, num_categorias, 3):
+            cols = st.columns(3)
+            for j in range(3):
+                idx = i + j
+                if idx < num_categorias:
+                    row = pdf_sum.iloc[idx]
+                    categoria = row["Categoria"]
+                    liquido = row["Liquido"]
+
+                    # Obter cor e ícone
+                    gradient, icon = category_colors.get(categoria, category_colors["Default"])
+
+                    with cols[j]:
+                        st.markdown(f"""
+                        <div style="background: #174B8D;
+                                    padding: 20px;
+                                    border-radius: 10px;
+                                    text-align: center;
+                                    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                                    margin-bottom: 10px;">
+                            <h3 style="color: white; margin: 0; font-size: 1.0em;">{icon} {categoria}</h3>
+                            <p style="color: white; font-size: 1.6em; font-weight: bold; margin: 10px 0;">{money(liquido)}</p>
+                        </div>
+                        """, unsafe_allow_html=True)
+
+        st.markdown("")  # Espaçamento
+
+        # Tabela detalhada em expander
+        with st.expander("📋 Ver detalhamento completo (Adicionais, Descontos, Líquido)"):
+            pdf_sum_display = pdf_sum.copy()
+            pdf_sum_display["Adicionais"] = pdf_sum_display["Adicionais"].apply(money)
+            pdf_sum_display["Descontos"] = pdf_sum_display["Descontos"].apply(money)
+            pdf_sum_display["Líquido"] = pdf_sum_display["Liquido"].apply(money)
+            st.dataframe(
+                pdf_sum_display[["Categoria", "Adicionais", "Descontos", "Líquido"]],
+                use_container_width=True,
+                height=300
+            )
 
     # Manter report_cat no session_state para compatibilidade com downloads (se necessário no futuro)
     if not pdf_sum.empty or not txt_sum.empty:
@@ -938,13 +1276,48 @@ if pdf_bytes and txt_bytes:
 
     # ========== RELATÓRIO 4: Composição por LA ==========
     st.markdown("---")
-    st.header("🔍 Composição por Código de Lançamento (LA)")
-    st.caption("Detalhamento de quais eventos compõem cada código LA presente na folha")
+    st.header("🔍 Confronto Folha x Lançamentos Contábeis")
 
     report_composition = composition_report_by_la(df_pdf_events, df_txt, mapping)
     st.session_state.report_composition_df = report_composition
 
     if not report_composition.empty:
+        # Resumo com métricas estilizadas
+        total_las = len(report_composition)
+        total_divergencias_la = (report_composition["Diferença"].abs() > 0.01).sum()
+        total_ok_la = total_las - total_divergencias_la
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">TOTAL DE LAs</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_las), unsafe_allow_html=True)
+        with col2:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">OK ✅</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_ok_la), unsafe_allow_html=True)
+        with col3:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">DIVERGENTES</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_divergencias_la), unsafe_allow_html=True)
+
+        st.markdown("")  # Espaçamento
+
         # Formatar valores monetários
         report_comp_display = report_composition.copy()
         report_comp_display["Valor PDF"] = report_comp_display["Valor PDF"].apply(money)
@@ -970,33 +1343,114 @@ if pdf_bytes and txt_bytes:
             height=400
         )
 
-        # Resumo com métricas
-        total_las = len(report_composition)
-        total_divergencias_la = (report_composition["Diferença"].abs() > 0.01).sum()
-        total_ok_la = total_las - total_divergencias_la
 
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.metric("Total de LAs", total_las)
-        with col2:
-            st.metric("Batendo", total_ok_la)
-        with col3:
-            st.metric("Divergentes", total_divergencias_la)
+        # Gerar PDF do relatório
+        pdf_bytes = generate_pdf_report(
+            df=report_composition,
+            title="Relatório de Composição por Código de Lançamento (LA)",
+            subtitle="Detalhamento de eventos que compõem cada código LA"
+        )
 
         st.download_button(
-            label="📥 Baixar Relatório de Composição CSV",
-            data=report_composition.to_csv(index=False).encode("utf-8"),
-            file_name="relatorio_composicao_por_la.csv",
-            mime="text/csv",
+            label="📥 Baixar Relatório de Composição (PDF)",
+            data=pdf_bytes,
+            file_name="relatorio_composicao_por_la.pdf",
+            mime="application/pdf",
             use_container_width=True
         )
     else:
         st.info("ℹ️ Nenhum dado disponível para o relatório de composição.")
 
+    # ========== RELATÓRIO: Folha Sócios ==========
+    st.markdown("---")
+    st.header("👔 Folha Sócios")
+
+    report_folha_socios = folha_socios_report_by_la(df_pdf_events, df_txt, mapping)
+    st.session_state.report_folha_socios_df = report_folha_socios
+
+    if not report_folha_socios.empty:
+        # Formatar valores monetários
+        # Resumo com métricas estilizadas
+        total_las_fs = len(report_folha_socios)
+        total_divergencias_fs = (report_folha_socios["Diferença"].abs() > 0.01).sum()
+        total_ok_fs = total_las_fs - total_divergencias_fs
+
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">TOTAL DE LAs</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_las_fs), unsafe_allow_html=True)
+        with col2:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">OK ✅</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_ok_fs), unsafe_allow_html=True)
+        with col3:
+            st.markdown("""
+            <div style="padding: 10px;
+                        border-radius: 12px;
+                        text-align: center;">
+                <h4 style="color: black; margin: 0; font-size: 1.2em; opacity: 0.9;">DIVERGENTES</h4>
+                <p style="color: black; font-size: 3.0em; font-weight: bold; margin: 5px 0;">{}</p>
+            </div>
+            """.format(total_divergencias_fs), unsafe_allow_html=True)
+
+        st.markdown("")  # Espaçamento
+            
+        report_fs_display = report_folha_socios.copy()
+        report_fs_display["Valor PDF"] = report_fs_display["Valor PDF"].apply(money)
+        report_fs_display["Valor TXT"] = report_fs_display["Valor TXT"].apply(money)
+        report_fs_display["Diferença"] = report_fs_display["Diferença"].apply(money)
+
+        # Adicionar status visual
+        report_fs_display["Status"] = report_folha_socios["Diferença"].apply(
+            lambda x: "✅ OK" if abs(x) < 0.01 else "⚠️ DIVERGENTE"
+        )
+
+        st.dataframe(
+            report_fs_display[[
+                "Código de Lançamento",
+                "Eventos",
+                "Descrição (TXT)",
+                "Valor PDF",
+                "Valor TXT",
+                "Diferença",
+                "Status"
+            ]],
+            use_container_width=True,
+            height=400
+        )
+
+
+        # Gerar PDF do relatório
+        pdf_bytes_fs = generate_pdf_report(
+            df=report_folha_socios,
+            title="Relatório Folha Sócios",
+            subtitle="Detalhamento de códigos LA relacionados à Folha de Sócios"
+        )
+
+        st.download_button(
+            label="📥 Baixar Relatório Folha Sócios (PDF)",
+            data=pdf_bytes_fs,
+            file_name="relatorio_folha_socios.pdf",
+            mime="application/pdf",
+            use_container_width=True
+        )
+    else:
+        st.info("ℹ️ Nenhum código de Folha Sócios encontrado nos dados processados.")
+
     # ========== RELATÓRIO 5: Impostos ==========
     st.markdown("---")
     st.header("💰 Relatório de Impostos (INSS, IRRF e FGTS)")
-    st.caption("Detalhamento de códigos LA específicos de impostos classificados por tipo")
 
     report_taxes = extract_taxes_report(df_pdf_events, df_txt, mapping)
     st.session_state.report_taxes_df = report_taxes
@@ -1028,25 +1482,75 @@ if pdf_bytes and txt_bytes:
             height=400
         )
 
-        # Resumo por tipo de imposto com métricas
-        inss_total = report_taxes[report_taxes["Tipo Imposto"] == "INSS"]["Diferença"].abs().sum()
-        irrf_total = report_taxes[report_taxes["Tipo Imposto"] == "IRRF"]["Diferença"].abs().sum()
-        fgts_total = report_taxes[report_taxes["Tipo Imposto"] == "FGTS"]["Diferença"].abs().sum()
+        # Resumo por tipo de imposto - Total Contabilizado (TXT)
+        # INSS: Códigos 70019 e 30050 são descontos (subtrair do total)
+        INSS_DESCONTO_CODES = ["70019", "30050"]
 
-        st.markdown("#### Divergências por Tipo de Imposto")
+        inss_df = report_taxes[report_taxes["Tipo Imposto"] == "INSS"].copy()
+        if not inss_df.empty:
+            # Separar adicionais e descontos
+            inss_adicionais = inss_df[~inss_df["Código de Lançamento"].isin(INSS_DESCONTO_CODES)]["Valor TXT"].sum()
+            inss_descontos = inss_df[inss_df["Código de Lançamento"].isin(INSS_DESCONTO_CODES)]["Valor TXT"].sum()
+            inss_total = inss_adicionais - inss_descontos
+        else:
+            inss_total = 0.0
+
+        irrf_total = report_taxes[report_taxes["Tipo Imposto"] == "IRRF"]["Valor TXT"].sum()
+        fgts_total = report_taxes[report_taxes["Tipo Imposto"] == "FGTS"]["Valor TXT"].sum()
+
+        st.markdown("#### 📋 Resumo de Impostos Contabilizados (Líquido)")
+        st.markdown("*Valores totais registrados no lote contábil (TXT)*")
+        st.markdown("")  # Espaçamento
+
         col1, col2, col3 = st.columns(3)
         with col1:
-            st.metric("INSS", money(inss_total), delta="OK" if inss_total < 0.01 else None)
+            st.markdown("""
+            <div style="background: #174B8D;
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h3 style="color: white; margin: 0; font-size: 1.1em;">💼 INSS</h3>
+                <p style="color: white; font-size: 1.8em; font-weight: bold; margin: 10px 0;">{}</p>
+            </div>
+            """.format(money(inss_total)), unsafe_allow_html=True)
         with col2:
-            st.metric("IRRF", money(irrf_total), delta="OK" if irrf_total < 0.01 else None)
+            st.markdown("""
+            <div style="background: #174B8D;
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h3 style="color: white; margin: 0; font-size: 1.1em;">📊 IRRF</h3>
+                <p style="color: white; font-size: 1.8em; font-weight: bold; margin: 10px 0;">{}</p>
+            </div>
+            """.format(money(irrf_total)), unsafe_allow_html=True)
         with col3:
-            st.metric("FGTS", money(fgts_total), delta="OK" if fgts_total < 0.01 else None)
+            st.markdown("""
+            <div style="background: #174B8D;
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h3 style="color: white; margin: 0; font-size: 1.1em;">🏦 FGTS</h3>
+                <p style="color: white; font-size: 1.8em; font-weight: bold; margin: 10px 0;">{}</p>
+            </div>
+            """.format(money(fgts_total)), unsafe_allow_html=True)
+
+        st.markdown("")  # Espaçamento
+
+        # Gerar PDF do relatório
+        pdf_bytes_impostos = generate_pdf_report(
+            df=report_taxes,
+            title="Relatório de Impostos (INSS, IRRF e FGTS)",
+            subtitle="Detalhamento de códigos LA específicos de impostos"
+        )
 
         st.download_button(
-            label="📥 Baixar Relatório de Impostos CSV",
-            data=report_taxes.to_csv(index=False).encode("utf-8"),
-            file_name="relatorio_impostos.csv",
-            mime="text/csv",
+            label="📥 Baixar Relatório de Impostos (PDF)",
+            data=pdf_bytes_impostos,
+            file_name="relatorio_impostos.pdf",
+            mime="application/pdf",
             use_container_width=True
         )
     else:
@@ -1056,15 +1560,3 @@ if pdf_bytes and txt_bytes:
     with st.expander("⚙️ Ver Mapeamento JSON Carregado", expanded=False):
         st.caption("Estrutura de mapeamento: Categoria → [evento, código_lançamento, tipo]")
         st.json(mapping)
-
-else:
-    # Mensagem quando não há arquivos
-    st.info("👆 **Envie os arquivos PDF e TXT/CSV acima para iniciar a análise**")
-    st.markdown("""
-    ### Como usar:
-    1. Faça upload do **PDF da Folha de Pagamento**
-    2. Faça upload do **TXT/CSV do Lote Contábil**
-    3. A análise será gerada automaticamente
-
-    Ou clique em **"Usar arquivos de exemplo"** se disponível no sistema.
-    """)
