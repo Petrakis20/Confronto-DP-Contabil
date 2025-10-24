@@ -147,7 +147,23 @@ def generate_pdf_report(df: pd.DataFrame, title: str, subtitle: str = "") -> byt
     if df.empty:
         elements.append(Paragraph("Nenhum dado disponível", styles['Normal']))
     else:
-        # Estilo para células
+        # Fazer cópia para não modificar o original
+        df_copy = df.copy()
+
+        # Verificar se tem coluna Status
+        has_status = 'Status' in df_copy.columns
+
+        # Formatar valores monetários e numéricos com 2 casas decimais
+        for col in df_copy.columns:
+            if col in ['Valor PDF', 'Valor TXT', 'Diferença', 'ValorPDF', 'ValorTXT']:
+                # Já vem formatado como string no formato brasileiro (ex: "R$ 1.234,56")
+                # Não precisa reformatar
+                pass
+            elif df_copy[col].dtype in ['float64', 'float32', 'int64', 'int32']:
+                # Formatar outros números com 2 casas decimais
+                df_copy[col] = df_copy[col].apply(lambda x: f"{x:.2f}" if pd.notna(x) else "")
+
+        # Estilo para células normais
         cell_style = ParagraphStyle(
             'CellStyle',
             parent=styles['Normal'],
@@ -157,16 +173,38 @@ def generate_pdf_report(df: pd.DataFrame, title: str, subtitle: str = "") -> byt
             alignment=TA_LEFT
         )
 
+        # Estilo para células divergentes (vermelho)
+        cell_style_divergent = ParagraphStyle(
+            'CellStyleDivergent',
+            parent=styles['Normal'],
+            fontSize=7,
+            leading=9,
+            wordWrap='LTR',
+            alignment=TA_LEFT,
+            textColor=colors.red
+        )
+
         # Cabeçalhos (como strings simples)
-        data = [df.columns.tolist()]
+        data = [df_copy.columns.tolist()]
 
         # Dados (usar Paragraph para quebra de linha automática)
-        for _, row in df.iterrows():
+        divergent_rows = []  # Guardar índices de linhas divergentes
+        for idx, (_, row) in enumerate(df_copy.iterrows(), start=1):
             row_data = []
-            for val in row:
+            is_divergent = has_status and '⚠️ DIVERGENTE' in str(row.get('Status', ''))
+
+            if is_divergent:
+                divergent_rows.append(idx)
+
+            for col_name, val in zip(df_copy.columns, row):
                 val_str = str(val) if val is not None else ""
+
+                # Usar estilo vermelho para valores em linhas divergentes
+                style_to_use = cell_style_divergent if is_divergent else cell_style
+
                 # Usar Paragraph para permitir quebra de texto
-                row_data.append(Paragraph(val_str, cell_style))
+                row_data.append(Paragraph(val_str, style_to_use))
+
             data.append(row_data)
 
         # Calcular largura das colunas dinamicamente
@@ -198,7 +236,7 @@ def generate_pdf_report(df: pd.DataFrame, title: str, subtitle: str = "") -> byt
         table = Table(data, colWidths=col_widths, repeatRows=1)
 
         # Estilo da tabela
-        table.setStyle(TableStyle([
+        table_style = [
             # Cabeçalho
             ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor('#1f4788')),
             ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
@@ -222,7 +260,15 @@ def generate_pdf_report(df: pd.DataFrame, title: str, subtitle: str = "") -> byt
             ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
             ('LEFTPADDING', (0, 0), (-1, -1), 6),
             ('RIGHTPADDING', (0, 0), (-1, -1), 6),
-        ]))
+        ]
+
+        # Adicionar destaque para linhas divergentes (fundo vermelho claro)
+        for row_idx in divergent_rows:
+            table_style.append(
+                ('BACKGROUND', (0, row_idx), (-1, row_idx), colors.HexColor('#ffe6e6'))
+            )
+
+        table.setStyle(TableStyle(table_style))
 
         elements.append(table)
 
@@ -1344,9 +1390,18 @@ if pdf_bytes and txt_bytes:
         )
 
 
+        # Preparar DataFrame para PDF (com Status)
+        report_comp_pdf = report_composition.copy()
+        report_comp_pdf["Valor PDF"] = report_comp_pdf["Valor PDF"].apply(money)
+        report_comp_pdf["Valor TXT"] = report_comp_pdf["Valor TXT"].apply(money)
+        report_comp_pdf["Diferença"] = report_comp_pdf["Diferença"].apply(money)
+        report_comp_pdf["Status"] = report_composition["Diferença"].apply(
+            lambda x: "✅ OK" if abs(x) < 0.01 else "⚠️ DIVERGENTE"
+        )
+
         # Gerar PDF do relatório
         pdf_bytes = generate_pdf_report(
-            df=report_composition,
+            df=report_comp_pdf,
             title="Relatório de Composição por Código de Lançamento (LA)",
             subtitle="Detalhamento de eventos que compõem cada código LA"
         )
@@ -1431,9 +1486,18 @@ if pdf_bytes and txt_bytes:
         )
 
 
+        # Preparar DataFrame para PDF (com Status)
+        report_fs_pdf = report_folha_socios.copy()
+        report_fs_pdf["Valor PDF"] = report_fs_pdf["Valor PDF"].apply(money)
+        report_fs_pdf["Valor TXT"] = report_fs_pdf["Valor TXT"].apply(money)
+        report_fs_pdf["Diferença"] = report_fs_pdf["Diferença"].apply(money)
+        report_fs_pdf["Status"] = report_folha_socios["Diferença"].apply(
+            lambda x: "✅ OK" if abs(x) < 0.01 else "⚠️ DIVERGENTE"
+        )
+
         # Gerar PDF do relatório
         pdf_bytes_fs = generate_pdf_report(
-            df=report_folha_socios,
+            df=report_fs_pdf,
             title="Relatório Folha Sócios",
             subtitle="Detalhamento de códigos LA relacionados à Folha de Sócios"
         )
@@ -1539,9 +1603,18 @@ if pdf_bytes and txt_bytes:
 
         st.markdown("")  # Espaçamento
 
+        # Preparar DataFrame para PDF (com Status)
+        report_taxes_pdf = report_taxes.copy()
+        report_taxes_pdf["Valor PDF"] = report_taxes_pdf["Valor PDF"].apply(money)
+        report_taxes_pdf["Valor TXT"] = report_taxes_pdf["Valor TXT"].apply(money)
+        report_taxes_pdf["Diferença"] = report_taxes_pdf["Diferença"].apply(money)
+        report_taxes_pdf["Status"] = report_taxes["Diferença"].apply(
+            lambda x: "✅ OK" if abs(x) < 0.01 else "⚠️ DIVERGENTE"
+        )
+
         # Gerar PDF do relatório
         pdf_bytes_impostos = generate_pdf_report(
-            df=report_taxes,
+            df=report_taxes_pdf,
             title="Relatório de Impostos (INSS, IRRF e FGTS)",
             subtitle="Detalhamento de códigos LA específicos de impostos"
         )
