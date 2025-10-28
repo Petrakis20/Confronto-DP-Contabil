@@ -773,7 +773,7 @@ def extract_taxes_report(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapp
     """
     # Definir códigos de impostos
     INSS_CODES = ["897", "30039", "30050", "30055", "30056", "30057", "30067","30072", "30073", "40023", "60001", "70019", "80030"]
-    IRRF_CODES = ["30058", "40024", "40025", "50003", "60002", "80031"]
+    IRRF_CODES = ["30058", "40024", "40025", "60002", "80031"]
     FGTS_CODES = ["30051", "30059", "50026", "70015"]
     TAX_CODES = INSS_CODES + IRRF_CODES + FGTS_CODES
 
