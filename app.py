@@ -1163,6 +1163,64 @@ if "report_folha_socios_df" not in st.session_state:
 
 # Título principal
 st.title("📊 Conferência Input DP")
+
+# Botões de manuais (destacados em vermelho, alinhados à esquerda)
+st.markdown("")  # Espaçamento
+
+# CSS customizado para botões vermelhos
+st.markdown("""
+<style>
+div[data-testid="stDownloadButton"] button {
+    background-color: #dc3545 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+}
+div[data-testid="stDownloadButton"] button:hover {
+    background-color: #c82333 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+# Layout: título e botões alinhados à esquerda
+st.markdown("**📚 Manuais de Apoio**")
+
+col1, col2, col3 = st.columns([1, 1, 3])
+
+with col1:
+    # Manual 1: Extração
+    manual_extracao_path = os.path.join(os.path.dirname(__file__), "Passo a Passo txt do Lote.pdf")
+    if os.path.exists(manual_extracao_path):
+        with open(manual_extracao_path, "rb") as f:
+            manual_extracao_bytes = f.read()
+
+        st.download_button(
+            label="📥 Extração Relatório Contábil",
+            data=manual_extracao_bytes,
+            file_name="Manual_Extracao_Relatorio_Contabil.pdf",
+            mime="application/pdf",
+            key="manual_extracao",
+            use_container_width=True
+        )
+
+with col2:
+    # Manual 2: Plataforma
+    manual_plataforma_path = os.path.join(os.path.dirname(__file__), "Manual Plataforma Input DP.pdf")
+    if os.path.exists(manual_plataforma_path):
+        with open(manual_plataforma_path, "rb") as f:
+            manual_plataforma_bytes = f.read()
+
+        st.download_button(
+            label="📖 Utilização da Plataforma",
+            data=manual_plataforma_bytes,
+            file_name="Manual_Plataforma_Input_DP.pdf",
+            mime="application/pdf",
+            key="manual_plataforma",
+            use_container_width=True
+        )
+
 st.markdown("---")
 
 # Carrega mapeamento
