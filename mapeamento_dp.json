@@ -978,6 +978,9 @@
       "evento": "606",
       "codigo_lancamento": "40011",
       "tipo": "Adicional"
+    },
+    {
+      
     }
   ],
   "Folha": [
@@ -2692,6 +2695,11 @@
       "tipo": "Adicional"
     },
     {
+      "evento": "553",
+      "codigo_lancamento": "30074",
+      "tipo": "Adicional"
+    },
+    {
       "evento": "559",
       "codigo_lancamento": "30015",
       "tipo": "Adicional"
@@ -3274,6 +3282,11 @@
     {
       "evento": "803",
       "codigo_lancamento": "40013",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "804",
+      "codigo_lancamento": "30075",
       "tipo": "Desconto"
     },
     {
@@ -4720,6 +4733,11 @@
     {
       "evento": "796",
       "codigo_lancamento": "60003",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "805",
+      "codigo_lancamento": "50035",
       "tipo": "Desconto"
     },
     {
