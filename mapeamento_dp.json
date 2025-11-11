@@ -980,7 +980,9 @@
       "tipo": "Adicional"
     },
     {
-      
+      "evento": "805",
+      "codigo_lancamento": "40045",
+      "tipo": "Desconto"
     }
   ],
   "Folha": [
