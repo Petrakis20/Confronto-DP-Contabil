@@ -1037,6 +1037,103 @@ def composition_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, 
 
     return result
 
+def extract_socios_autonomos_resumo_geral(pdf_bytes: bytes) -> dict:
+    """
+    Extrai informações de pró-labore e autônomos do Resumo Geral do PDF.
+
+    Retorna dicionário com:
+    {
+        "pro_labore_bruto": float,
+        "pro_labore_inss": float,
+        "pro_labore_liquido": float,
+        "autonomos_bruto": float,
+        "autonomos_inss": float,
+        "autonomos_liquido": float
+    }
+    """
+    resultado = {
+        "pro_labore_bruto": 0.0,
+        "pro_labore_inss": 0.0,
+        "pro_labore_liquido": 0.0,
+        "autonomos_bruto": 0.0,
+        "autonomos_inss": 0.0,
+        "autonomos_liquido": 0.0
+    }
+
+    in_socios_section = False
+    pro_labore_bruto = 0.0
+    autonomos_bruto = 0.0
+    inss_socios = 0.0
+    inss_autonomos = 0.0
+
+    with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+        for page in pdf.pages:
+            words = page.extract_words(use_text_flow=True, keep_blank_chars=False)
+            lines = _group_words_by_line(words)
+
+            for line in lines:
+                line_text = " ".join([w["text"] for w in sorted(line, key=lambda w: w["x0"])]).strip()
+                norm_line = normalize_text(line_text)
+
+                # Detectar início da seção de sócios/autônomos
+                if "valores pagos aos socios" in norm_line or "valores socios" in norm_line:
+                    in_socios_section = True
+                    continue
+
+                if not in_socios_section:
+                    continue
+
+                # Detectar fim da seção (quando encontra "TOTAL DE SÓCIOS / AUTÔNOMOS" ou próxima seção)
+                if "total de socios" in norm_line or "total liquido a pagar" in norm_line:
+                    if "total liquido a pagar" in norm_line:
+                        # Extrair valores do TOTAL LÍQUIDO A PAGAR
+                        parts = line_text.split()
+                        valores = [p for p in parts if "," in p]
+                        if len(valores) >= 2:
+                            try:
+                                resultado["pro_labore_liquido"] = parse_brl_decimal(valores[-2])
+                                resultado["autonomos_liquido"] = parse_brl_decimal(valores[-1])
+                            except:
+                                pass
+                    continue
+
+                # Buscar linha "003 PRO LABORE"
+                if "003" in line_text and "pro labore" in norm_line:
+                    # Extrair valores (colunas: Valores Sócios e Valores Autônomos)
+                    parts = line_text.split()
+                    # Pegar os últimos dois valores numéricos
+                    valores = [p for p in parts if "," in p]
+                    if len(valores) >= 2:
+                        try:
+                            pro_labore_bruto = parse_brl_decimal(valores[-2])
+                            autonomos_bruto = parse_brl_decimal(valores[-1])
+                        except:
+                            pass
+
+                # Buscar linha "013 INSS"
+                if "013" in line_text and "inss" in norm_line:
+                    parts = line_text.split()
+                    valores = [p for p in parts if "," in p]
+                    if len(valores) >= 2:
+                        try:
+                            inss_socios = parse_brl_decimal(valores[-2])
+                            inss_autonomos = parse_brl_decimal(valores[-1])
+                        except:
+                            pass
+
+    # Calcular valores líquidos se não foram extraídos diretamente
+    resultado["pro_labore_bruto"] = pro_labore_bruto
+    resultado["pro_labore_inss"] = inss_socios
+    if resultado["pro_labore_liquido"] == 0.0:
+        resultado["pro_labore_liquido"] = pro_labore_bruto - inss_socios
+
+    resultado["autonomos_bruto"] = autonomos_bruto
+    resultado["autonomos_inss"] = inss_autonomos
+    if resultado["autonomos_liquido"] == 0.0:
+        resultado["autonomos_liquido"] = autonomos_bruto - inss_autonomos
+
+    return resultado
+
 def folha_socios_report_by_la(df_pdf_events: pd.DataFrame, df_txt: pd.DataFrame, mapping: dict) -> pd.DataFrame:
     """
     Gera relatório exclusivo para códigos LA da categoria 'Folha Sócios'.
@@ -1377,6 +1474,64 @@ if pdf_bytes and txt_bytes:
     if not pdf_sum.empty or not txt_sum.empty:
         report_cat = compare_by_categoria(pdf_sum, txt_sum)
         st.session_state.report_cat_df = report_cat
+
+    # ========== RESUMO SÓCIOS E AUTÔNOMOS ==========
+    st.markdown("---")
+    st.header("👔 Pró-Labore e Autônomos (Resumo Geral)")
+    st.caption("Valores extraídos da seção 'Valores pagos aos Sócios / Autônomos' do Resumo Geral")
+    st.markdown("")  # Espaçamento
+
+    # Extrair dados de sócios e autônomos
+    dados_socios_autonomos = extract_socios_autonomos_resumo_geral(pdf_bytes)
+
+    # Criar cards para Pró-Labore e Autônomos
+    col1, col2 = st.columns(2)
+
+    with col1:
+        # Card Pró-Labore
+        pro_labore_liquido = dados_socios_autonomos["pro_labore_liquido"]
+        pro_labore_bruto = dados_socios_autonomos["pro_labore_bruto"]
+        pro_labore_inss = dados_socios_autonomos["pro_labore_inss"]
+
+        if pro_labore_bruto > 0:
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h3 style="color: white; margin: 0; font-size: 1.2em;">💼 Pró-Labore</h3>
+                <p style="color: white; font-size: 2.0em; font-weight: bold; margin: 10px 0;">{money(pro_labore_liquido)}</p>
+                <p style="color: white; font-size: 0.9em; margin: 5px 0; opacity: 0.9;">Bruto: {money(pro_labore_bruto)}</p>
+                <p style="color: white; font-size: 0.9em; margin: 5px 0; opacity: 0.9;">INSS: {money(pro_labore_inss)}</p>
+            </div>
+            """, unsafe_allow_html=True)
+        else:
+            st.info("ℹ️ Nenhum valor de Pró-Labore encontrado no Resumo Geral")
+
+    with col2:
+        # Card Autônomos
+        autonomos_liquido = dados_socios_autonomos["autonomos_liquido"]
+        autonomos_bruto = dados_socios_autonomos["autonomos_bruto"]
+        autonomos_inss = dados_socios_autonomos["autonomos_inss"]
+
+        if autonomos_bruto > 0:
+            st.markdown(f"""
+            <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+                        padding: 20px;
+                        border-radius: 10px;
+                        text-align: center;
+                        box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                <h3 style="color: white; margin: 0; font-size: 1.2em;">👨‍💼 Autônomos</h3>
+                <p style="color: white; font-size: 2.0em; font-weight: bold; margin: 10px 0;">{money(autonomos_liquido)}</p>
+                <p style="color: white; font-size: 0.9em; margin: 5px 0; opacity: 0.9;">Bruto: {money(autonomos_bruto)}</p>
+                <p style="color: white; font-size: 0.9em; margin: 5px 0; opacity: 0.9;">INSS: {money(autonomos_inss)}</p>
+            </div>
+            """, unsafe_allow_html=True)
+        else:
+            st.info("ℹ️ Nenhum valor de Autônomos encontrado no Resumo Geral")
+
+    st.markdown("")  # Espaçamento
 
     # ========== RELATÓRIO 4: Composição por LA ==========
     st.markdown("---")

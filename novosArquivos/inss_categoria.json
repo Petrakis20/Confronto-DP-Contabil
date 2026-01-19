@@ -1,0 +1,509 @@
+{
+  "INSS": [
+    {
+      "evento": "204",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "70019",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "204",
+      "codigo_lancamento": "70019",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "240",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "240",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "250",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "250",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "251",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "251",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "252",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "252",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "253",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "253",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "255",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "255",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "257",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "257",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "260",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "260",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "261",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "261",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "262",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "262",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "264",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "264",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "269",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "269",
+      "codigo_lancamento": "30039",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "280",
+      "codigo_lancamento": "30055",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "280",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "897",
+      "codigo_lancamento": "897",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "897",
+      "codigo_lancamento": "897",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "30057",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "900",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "900",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "901",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "901",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "902",
+      "codigo_lancamento": "60001",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "903",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "924",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "925",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "40023",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "926",
+      "codigo_lancamento": "80030",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "390",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "400",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "401",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "402",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "403",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "404",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "407",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "408",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "409",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "410",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "411",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "418",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "420",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "425",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "426",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "427",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "428",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "434",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "435",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "436",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "437",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "438",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "446",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "447",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "448",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "449",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "456",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "458",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "463",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "467",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "603",
+      "codigo_lancamento": "40034",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "608",
+      "codigo_lancamento": "80097",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "609",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "611",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "686",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "694",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "747",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "748",
+      "codigo_lancamento": "40034",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "752",
+      "codigo_lancamento": "30056",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "899",
+      "codigo_lancamento": "30057",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "909",
+      "codigo_lancamento": "30058",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "919",
+      "codigo_lancamento": "30059",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "920",
+      "codigo_lancamento": "40034",
+      "tipo": "Desconto"
+    },
+    {
+      "evento": "998",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    },
+    {
+      "evento": "999",
+      "codigo_lancamento": "30056",
+      "tipo": "Adicional"
+    }
+  ]
+}
